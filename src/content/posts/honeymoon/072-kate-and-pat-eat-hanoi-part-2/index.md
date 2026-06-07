@@ -28,7 +28,7 @@ images:
   - path: "./images/large_IMG_20140330_215011.jpg"
     caption: "Ms Moon said she wanted to finish off the tour with a beer at a local street bar. On the way she spotted a Banh Troi shop (little sticky rice balls with a lump of brown sugar in the middle). It's Ms Moon's favourite so she treated us to some too."
   - path: "./images/large_IMG_20140330_215144.jpg"
-    caption: "We finished off with draught beer, brewed locally. Ms Moon and Kate were the only females there. Apparently it's rare for women to drink beer or smoke cigarettes here; it's looked down on. Ms Moon laughed and said she likes beer anyway and her husband doesn't mind! There were chickens and a rooster pottering around pecking at the footpath. A man stopped by for a beer on the way home, kids in toe. His cute little girl sat down at the table next to us with her sister. They got out a cake and sang her Happy Birthday. Cute cute cute!"
+    caption: ""
 ---
 Pat woke up with a head cold. At least we're getting all the illnesses out of the way in the first couple of months?
 
@@ -96,9 +96,9 @@ While walking home we passed Ms Moon's office. Her assistant spotted us and ran 
 
 *Ms Moon said she wanted to finish off the tour with a beer at a local street bar. On the way she spotted a Banh Troi shop (little sticky rice balls with a lump of brown sugar in the middle). It's Ms Moon's favourite so she treated us to some too.*
 
-![We finished off with draught beer, brewed locally. Ms Moon and Kate were the only females there. Apparently it's rare for women to drink beer or smoke cigarettes here; it's looked down on. Ms Moon laughed and said she likes beer anyway and her husband doesn't mind! There were chickens and a rooster pottering around pecking at the footpath. A man stopped by for a beer on the way home, kids in toe. His cute little girl sat down at the table next to us with her sister. They got out a cake and sang her Happy Birthday. Cute cute cute!](./images/large_IMG_20140330_215144.jpg)
+![](./images/large_IMG_20140330_215144.jpg)
 
-*We finished off with draught beer, brewed locally. Ms Moon and Kate were the only females there. Apparently it's rare for women to drink beer or smoke cigarettes here; it's looked down on. Ms Moon laughed and said she likes beer anyway and her husband doesn't mind! There were chickens and a rooster pottering around pecking at the footpath. A man stopped by for a beer on the way home, kids in toe. His cute little girl sat down at the table next to us with her sister. They got out a cake and sang her Happy Birthday. Cute cute cute!*
+We finished off with draught beer, brewed locally. Ms Moon and Kate were the only females there. Apparently it's rare for women to drink beer or smoke cigarettes here; it's looked down on. Ms Moon laughed and said she likes beer anyway and her husband doesn't mind! There were chickens and a rooster pottering around pecking at the footpath. A man stopped by for a beer on the way home, kids in toe. His cute little girl sat down at the table next to us with her sister. They got out a cake and sang her Happy Birthday. Cute cute cute!
 
 While we drink Ms Moon tells us a little more about Hanoi. We asked about how they can eat dogs as well as having them as pets. She says not everyone eats dogs but those who do usually have pet dogs and when the bitch has a litter they pick the two smartest to keep, raise the others to a few months old then eat them. We asked about Vietnamese weddings. Mostly people pick their own partner these days unless they live out in a hill tribe or occasionally in the city if their family is very rich. They still have giant weddings, but at the end brides have to do the dishes. Many brides break down and cry because there's too many!
 

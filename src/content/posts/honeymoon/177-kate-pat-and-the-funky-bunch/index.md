@@ -8,7 +8,7 @@ country: "USA"
 tags: []
 images:
   - path: "./images/large_IMG_1484.jpg"
-    caption: "We decided to stick with the museum track today and go to the Boston Museum of Fine Arts, a gift from Simone and Jeff. On the way we stopped for lunch at a cafe where Dad relived Mum's experience from the Washington train station and was totally unable to communicate with the waitress with his accent. After multiple attempts to order 2 sandwiches, he left a confused clerk behind him and with only one sandwich in hand."
+    caption: ""
   - path: "./images/large_20140811_222045.jpg"
     caption: ""
   - path: "./images/large_20140811_202801.jpg"
@@ -28,9 +28,9 @@ The train was uneventful and about 4 hours later we arrived in Boston. We walked
 
 Our first full day in Boston we had a very exciting moment on our morning jog. On the loop back home we passed a big expensive looking van pulling into a parking lot. Kate paid attention hoping someone famous would step out. Instead a dodgy looking guy with dreads gets out, followed by another large guy in a suit. Kate decides they might be a drug cartel and avoids eye contact. At least until Pat elbows her because the third person to step out is none other than Mark Wahlburg/Marky Mark! Being disgusting sweaty monsters we don't stop to say hi, but it was cool nonetheless.
 
-![We decided to stick with the museum track today and go to the Boston Museum of Fine Arts, a gift from Simone and Jeff. On the way we stopped for lunch at a cafe where Dad relived Mum's experience from the Washington train station and was totally unable to communicate with the waitress with his accent. After multiple attempts to order 2 sandwiches, he left a confused clerk behind him and with only one sandwich in hand.](./images/large_IMG_1484.jpg)
+![](./images/large_IMG_1484.jpg)
 
-*We decided to stick with the museum track today and go to the Boston Museum of Fine Arts, a gift from Simone and Jeff. On the way we stopped for lunch at a cafe where Dad relived Mum's experience from the Washington train station and was totally unable to communicate with the waitress with his accent. After multiple attempts to order 2 sandwiches, he left a confused clerk behind him and with only one sandwich in hand.*
+We decided to stick with the museum track today and go to the Boston Museum of Fine Arts, a gift from Simone and Jeff. On the way we stopped for lunch at a cafe where Dad relived Mum's experience from the Washington train station and was totally unable to communicate with the waitress with his accent. After multiple attempts to order 2 sandwiches, he left a confused clerk behind him and with only one sandwich in hand.
 
 The museum had a special exhibition showing the Magna Carta, an agreement written in England in the 1200s between the ever unpopular King John (the lion in Robin Hood of course) and some of his more unruly barons. It has been scrapped and reinstated a number of times, but forms the basis for the US, UK and Australian constitutions. Pretty amazing to see in real life.
 
