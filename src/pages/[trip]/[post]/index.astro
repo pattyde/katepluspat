@@ -65,6 +65,23 @@ const formattedDate = post.data.date.toLocaleDateString('en-AU', {
   <PostNav prev={prev} next={next} tripSlug={tripSlug!} />
 </Base>
 
+<script>
+  // Mark pairs of consecutive image-only paragraphs so they can sit side by side
+  document.querySelectorAll('.prose p').forEach(p => {
+    const children = [...p.childNodes].filter(n => !(n.nodeType === Node.TEXT_NODE && n.textContent?.trim() === ''));
+    if (children.length === 1 && (children[0] as Element).tagName === 'IMG') {
+      const next = p.nextElementSibling;
+      if (next && next.tagName === 'P') {
+        const nextChildren = [...next.childNodes].filter(n => !(n.nodeType === Node.TEXT_NODE && n.textContent?.trim() === ''));
+        if (nextChildren.length === 1 && (nextChildren[0] as Element).tagName === 'IMG') {
+          p.classList.add('img-pair', 'img-pair-first');
+          next.classList.add('img-pair');
+        }
+      }
+    }
+  });
+</script>
+
 <style>
   .breadcrumb {
     font-family: 'Inter', sans-serif;
@@ -129,9 +146,22 @@ const formattedDate = post.data.date.toLocaleDateString('en-AU', {
   .prose :global(h3) { font-size: 1.15rem; margin: 1.5rem 0 0.5rem; }
 
   .prose :global(img) {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 3px;
-    margin: 1.5rem 0 0.5rem;
+    margin: 1.5rem auto 0.5rem;
+    display: block;
+  }
+
+  /* Pair up consecutive image paragraphs side by side (class added by JS below) */
+  .prose :global(p.img-pair) {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 0.4rem);
+    text-align: center;
+  }
+  .prose :global(p.img-pair-first) {
+    margin-right: 0.5rem;
   }
 
   .prose :global(em) {
