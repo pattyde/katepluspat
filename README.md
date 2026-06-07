@@ -1,43 +1,90 @@
-# Astro Starter Kit: Minimal
+# katepluspat.com
+
+Travel blog for Kate and Pat. Built with [Astro](https://astro.build), deployed to GitHub Pages.
+
+## Local development
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install        # install dependencies (first time only)
+npm run dev        # start dev server at http://localhost:4321
+npm run build      # production build + pagefind search index
+npm run preview    # preview the production build locally (required to test search)
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Adding a new post
 
-## 🚀 Project Structure
+1. **Create the post folder** inside the relevant trip directory:
 
-Inside of your Astro project, you'll see the following folders and files:
+   ```
+   src/content/posts/[trip-slug]/[post-slug]/
+   ```
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+   Trip slugs are: `honeymoon`, `europe-2023`, `europe-2024`
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+   Example:
+   ```
+   src/content/posts/europe-2024/028-my-new-post/
+   ```
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+2. **Create `index.md`** inside that folder with this front matter:
 
-Any static assets, like images, can be placed in the `public/` directory.
+   ```yaml
+   ---
+   title: "Post Title"
+   subtitle: "Optional subtitle"
+   date: 2025-01-18
+   author: katepluspat
+   trip: europe-2024
+   country: Malaysia
+   tags:
+     - optional tag
+   images:
+     - path: "./images/photo.jpg"
+       caption: "Optional caption"
+   ---
 
-## 🧞 Commands
+   Post body goes here...
+   ```
 
-All commands are run from the root of the project, from a terminal:
+3. **Add images** into an `images/` subfolder alongside `index.md`:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+   ```
+   src/content/posts/europe-2024/028-my-new-post/
+   ├── index.md
+   └── images/
+       └── photo.jpg
+   ```
 
-## 👀 Want to learn more?
+4. **Reference images in the body** using relative paths:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+   ```markdown
+   ![Caption text](./images/photo.jpg)
+
+   *Caption text*
+   ```
+
+   Two consecutive image blocks will automatically display side by side when both are portrait/small.
+
+## Adding a new trip
+
+1. Create a new YAML file in `src/content/trips/`:
+
+   ```yaml
+   # src/content/trips/my-new-trip.yaml
+   title: "Trip Title"
+   subtitle: "Optional subtitle"
+   slug: "my-new-trip"
+   dateRange: "Jan–Feb 2026"
+   countries:
+     - Australia
+   summary: "Short description shown on the home page."
+   heroImage: "/images/heroes/my-new-trip-hero.jpg"
+   ```
+
+2. Add a hero image to `public/images/heroes/`.
+
+3. Create posts under `src/content/posts/my-new-trip/`.
+
+## Deployment
+
+Pushing to `main` triggers the GitHub Actions workflow which builds the site and deploys to GitHub Pages automatically. The search index is rebuilt as part of every deploy.
