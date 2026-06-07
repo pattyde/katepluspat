@@ -64,13 +64,19 @@ import Base from '../layouts/Base.astro';
   }
 
   /* Pagefind UI overrides to match site style */
+  :global(.pagefind-ui) {
+    max-width: var(--max-width);
+  }
+
   :global(#search .pagefind-ui__search-input) {
     font-family: 'Lora', Georgia, serif;
     font-size: 1rem;
     border: 1px solid var(--border);
     border-radius: 3px;
-    padding: 0.6rem 0.8rem;
+    padding: 0.6rem 0.8rem 0.6rem 2.25rem;
     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     color: var(--text);
     background: var(--bg);
   }
@@ -80,7 +86,16 @@ import Base from '../layouts/Base.astro';
     border-color: var(--accent);
   }
   :global(#search .pagefind-ui__search-clear) {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
     color: var(--text-muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 0.75rem;
+  }
+  :global(#search .pagefind-ui__search-clear:hover) {
+    color: var(--text);
   }
   :global(#search .pagefind-ui__result) {
     border-bottom: 1px solid var(--border);
