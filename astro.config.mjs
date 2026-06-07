@@ -7,12 +7,4 @@ export default defineConfig({
   image: {
     remotePatterns: [],
   },
-  vite: {
-    build: {
-      rollupOptions: {
-        // Pagefind is generated post-build; exclude from Rollup resolution
-        external: ['/_pagefind/pagefind-ui.js'],
-      },
-    },
-  },
 });
