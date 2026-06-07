@@ -10,7 +10,7 @@ images:
   - path: "./images/large_IMG_20140305_094625.jpg"
     caption: "Procession of monks"
   - path: "./images/IMG_20140305_094402.jpg"
-    caption: "One of the monks was walking with a crutch and had a huge notch in his left temple like someone hit him hard in the skull with a post as a child. It was quite upsetting but he seemed to be in good spirits."
+    caption: ""
   - path: "./images/large_IMG_20140305_094744.jpg"
     caption: "This will go down in history as the place the illustrious 'Kate and Pat' were Discovered"
   - path: "./images/large_IMG_20140305_095101.jpg"
@@ -30,11 +30,11 @@ We had breakfast at hotel which wasn't fantastic but whatever. It included rice,
 
 We wandered out onto the streets of Yangon. A line of monks passed us on the street for their morning alms. People gave them rice and other bits of food. They gave us a booklet about the teachings of Buddha which was quite interesting.
 
-![One of the monks was walking with a crutch and had a huge notch in his left temple like someone hit him hard in the skull with a post as a child. It was quite upsetting but he seemed to be in good spirits.](./images/IMG_20140305_094402.jpg)
-
-*One of the monks was walking with a crutch and had a huge notch in his left temple like someone hit him hard in the skull with a post as a child. It was quite upsetting but he seemed to be in good spirits.*
+One of the monks was walking with a crutch and had a huge notch in his left temple like someone hit him hard in the skull with a post as a child. It was quite upsetting but he seemed to be in good spirits.
 
 All of the school aged kids said "hello" as we passed them, and they giggle and smile as we say hello back. There were newspapers hanging from strings attached to windows of high apartments, save the hassle of coming down to check your postbox?
+
+![](./images/IMG_20140305_094402.jpg)
 
 We walked to St Marys church, a very large, ornate, brick church which doesn't appear to fit in South East Asia at all. It has some new stained glass windows which were installed a few years ago and small birds flying in through the remaining open windows chirping inside the church. It was built during the English colonial times, apparently there's still a 15% Catholic population in Yangon. (As an aside, there are also 8 Jews. Isn't that specific?)
 

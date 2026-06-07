@@ -20,7 +20,7 @@ images:
   - path: "./images/large_IMG_20140307_110140.jpg"
     caption: "We could see yesterday's sunset temple from Goni- packed!"
   - path: "./images/large_IMG_20140307_110624.jpg"
-    caption: "For dinner we went to a place that puts on a nightly traditional puppet show. It was surprisingly fun with a superbly talented puppeteer. He had the puppets flipping and cartwheeling without tangling the strings, at one stage a horse puppet flew across the stage and somehow stole the other puppet's pants... Great value. Also helping keep the night fun was gin cocktails being cheaper than soda water. Who are we to argue?"
+    caption: ""
   - path: "./images/large_IMG_20140307_105509.jpg"
     caption: ""
   - path: "./images/large_IMG_20140307_105312.jpg"
@@ -78,9 +78,9 @@ Finally, finally we found the temple we wanted to see (North Goni) and upon arri
 
 As sunset approached the temple was flooded with tourists, vendors and kids, we decided to head (along the paved road this time). We went to the temple in town, the caretaker unlocked the gate and let us into the temple so we were the only ones there. It was very peaceful.
 
-![For dinner we went to a place that puts on a nightly traditional puppet show. It was surprisingly fun with a superbly talented puppeteer. He had the puppets flipping and cartwheeling without tangling the strings, at one stage a horse puppet flew across the stage and somehow stole the other puppet's pants... Great value. Also helping keep the night fun was gin cocktails being cheaper than soda water. Who are we to argue?](./images/large_IMG_20140307_110624.jpg)
+![](./images/large_IMG_20140307_110624.jpg)
 
-*For dinner we went to a place that puts on a nightly traditional puppet show. It was surprisingly fun with a superbly talented puppeteer. He had the puppets flipping and cartwheeling without tangling the strings, at one stage a horse puppet flew across the stage and somehow stole the other puppet's pants... Great value. Also helping keep the night fun was gin cocktails being cheaper than soda water. Who are we to argue?*
+For dinner we went to a place that puts on a nightly traditional puppet show. It was surprisingly fun with a superbly talented puppeteer. He had the puppets flipping and cartwheeling without tangling the strings, at one stage a horse puppet flew across the stage and somehow stole the other puppet's pants... Great value. Also helping keep the night fun was gin cocktails being cheaper than soda water. Who are we to argue?
 
 Someone in the restaurant was celebrating their birthday, so we finished the evening all singing Happy Birthday, and everyone got free cake.
 

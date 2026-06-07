@@ -26,7 +26,7 @@ images:
   - path: "./images/large_IMG_20140306_222837.jpg"
     caption: "Soooo shiny"
   - path: "./images/IMG_20140306_222926.jpg"
-    caption: "Many locals still pray to these nats, one in particular was popular because if you offer it a bracelets it will make your babies stop crying. They're also called upon to help when people are possessed by bad spirits. We asked Thien how people could believe in both reincarnation and ghosts/spirits and he sort if dodged the question. We didn't want to be rude or question his beliefs too much so we left it."
+    caption: ""
   - path: "./images/large_IMG_20140306_223705.jpg"
     caption: "Sunset"
   - path: "./images/large_IMG_20140306_222711.jpg"
@@ -120,9 +120,9 @@ Here Thien told us about the different levels of merit/karma you can get for dif
 
 Also of interest at this pagoda was a building in the corner full of little figures.  Thien explained back when the King decided everyone would be Buddhist he knew he couldn't really force people to believe what he wanted them to believe, so he took the old items of worship from their homes and placed them in Buddhist temple complexes. People could still pray to their old Gods, they just had to take the new one on board too.
 
-![Many locals still pray to these nats, one in particular was popular because if you offer it a bracelets it will make your babies stop crying. They're also called upon to help when people are possessed by bad spirits. We asked Thien how people could believe in both reincarnation and ghosts/spirits and he sort if dodged the question. We didn't want to be rude or question his beliefs too much so we left it.](./images/IMG_20140306_222926.jpg)
+![](./images/IMG_20140306_222926.jpg)
 
-*Many locals still pray to these nats, one in particular was popular because if you offer it a bracelets it will make your babies stop crying. They're also called upon to help when people are possessed by bad spirits. We asked Thien how people could believe in both reincarnation and ghosts/spirits and he sort if dodged the question. We didn't want to be rude or question his beliefs too much so we left it.*
+Many locals still pray to these nats, one in particular was popular because if you offer it a bracelets it will make your babies stop crying. They're also called upon to help when people are possessed by bad spirits. We asked Thien how people could believe in both reincarnation and ghosts/spirits and he sort if dodged the question. We didn't want to be rude or question his beliefs too much so we left it.
 
 The other handy thing was a statue of a horse you could pat if you have an ache or pain and it'll be healed. The head and lower back seemed to be popular spots.
 
