@@ -1,0 +1,21 @@
+{
+  "name": "travel-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist --output-subdir _pagefind",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.18",
+    "@types/leaflet": "^1.9.21",
+    "astro": "^6.4.4",
+    "leaflet": "^1.9.4",
+    "pagefind": "^1.5.2"
+  }
+}

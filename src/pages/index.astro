@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import TripCard from '../components/TripCard.astro';
+import { getCollection } from 'astro:content';
+
+const trips = await getCollection('trips');
+const allPosts = await getCollection('posts');
+
+const sortedTrips = trips.sort((a, b) => {
+  const yearA = parseInt(a.data.dateRange.match(/\d{4}/)?.[0] ?? '0');
+  const yearB = parseInt(b.data.dateRange.match(/\d{4}/)?.[0] ?? '0');
+  return yearB - yearA;
+});
+---
+<Base title="Kate + Pat" description="Kate and Pat's travel blog.">
+  <h1 class="page-title">Trips</h1>
+  <div class="trip-grid">
+    {sortedTrips.map(trip => {
+      const postCount = allPosts.filter(p => p.data.trip === trip.data.slug).length;
+      return (
+        <TripCard
+          title={trip.data.title}
+          subtitle={trip.data.subtitle}
+          slug={trip.data.slug}
+          dateRange={trip.data.dateRange}
+          countries={trip.data.countries}
+          postCount={postCount}
+          heroImage={trip.data.heroImage}
+          summary={trip.data.summary}
+        />
+      );
+    })}
+  </div>
+</Base>
+
+<style>
+  .page-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import TripMap from '../../components/TripMap.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const trips = await getCollection('trips');
+  return trips.map(trip => ({ params: { trip: trip.data.slug } }));
+}
+
+const { trip: tripSlug } = Astro.params;
+const trips = await getCollection('trips');
+const tripData = trips.find(t => t.data.slug === tripSlug)!;
+
+const allPosts = await getCollection('posts');
+const posts = allPosts
+  .filter(p => p.data.trip === tripSlug)
+  .sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+
+// Ordered list of unique countries for the route map
+const routeCountries = [...new Set(posts.map(p => p.data.country))];
+---
+<Base title={tripData.data.title} description={tripData.data.summary}>
+  <nav class="breadcrumb"><a href="/">Trips</a> / {tripData.data.title}</nav>
+  <h1>{tripData.data.title}</h1>
+  {tripData.data.subtitle && <p class="subtitle">{tripData.data.subtitle}</p>}
+  <p class="meta">{tripData.data.dateRange} &middot; {posts.length} posts &middot; {tripData.data.countries.join(', ')}</p>
+
+  {routeCountries.length >= 2 && <TripMap countries={routeCountries} />}
+
+  <PostList posts={posts} tripSlug={tripSlug!} />
+</Base>
+
+<style>
+  .breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+  .breadcrumb a { color: var(--text-muted); }
+
+  h1 { font-size: 2rem; margin-bottom: 0.2rem; }
+
+  .subtitle {
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+</style>

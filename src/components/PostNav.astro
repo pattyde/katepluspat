@@ -1,0 +1,40 @@
+---
+import { postSlugFromId } from '../lib/posts';
+
+interface NavPost {
+  id: string;
+  data: { title: string };
+}
+interface Props {
+  prev?: NavPost;
+  next?: NavPost;
+  tripSlug: string;
+}
+const { prev, next, tripSlug } = Astro.props;
+---
+<nav class="post-nav">
+  {prev
+    ? <a href={`/${tripSlug}/${postSlugFromId(prev.id)}/`} class="prev">← {prev.data.title}</a>
+    : <span />
+  }
+  {next
+    ? <a href={`/${tripSlug}/${postSlugFromId(next.id)}/`} class="next">{next.data.title} →</a>
+    : <span />
+  }
+</nav>
+
+<style>
+  .post-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+  }
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .next { text-align: right; }
+</style>

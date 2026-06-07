@@ -1,0 +1,168 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PostNav from '../../../components/PostNav.astro';
+import { getCollection, render } from 'astro:content';
+import { postSlugFromId } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+
+  return posts.map(post => {
+    const tripSlug = post.data.trip;
+    const tripPosts = posts
+      .filter(p => p.data.trip === tripSlug)
+      .sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+    const idx = tripPosts.findIndex(p => p.id === post.id);
+
+    return {
+      params: { trip: tripSlug, post: postSlugFromId(post.id) },
+      props: {
+        post,
+        prev: idx > 0 ? tripPosts[idx - 1] : undefined,
+        next: idx < tripPosts.length - 1 ? tripPosts[idx + 1] : undefined,
+      },
+    };
+  });
+}
+
+const { post, prev, next } = Astro.props;
+const { trip: tripSlug } = Astro.params;
+const { Content } = await render(post);
+
+const trips = await getCollection('trips');
+const tripData = trips.find(t => t.data.slug === tripSlug);
+
+const formattedDate = post.data.date.toLocaleDateString('en-AU', {
+  day: 'numeric', month: 'long', year: 'numeric',
+});
+---
+<Base title={post.data.title} description={`${post.data.title} — ${formattedDate}, ${post.data.country}`}>
+  <nav class="breadcrumb">
+    <a href="/">Trips</a> / <a href={`/${tripSlug}/`}>{tripData?.data.title ?? tripSlug}</a>
+  </nav>
+
+  <article>
+    <header>
+      <h1>{post.data.title}</h1>
+      {post.data.subtitle && <p class="subtitle">{post.data.subtitle}</p>}
+      <p class="meta">
+        <time datetime={post.data.date.toISOString()}>{formattedDate}</time>
+        &middot;
+        <a href={`/country/${post.data.country.toLowerCase().replace(/\s+/g, '-')}/`}>{post.data.country}</a>
+      </p>
+      {post.data.tags.length > 0 && (
+        <ul class="tags">
+          {post.data.tags.map(tag => <li>{tag}</li>)}
+        </ul>
+      )}
+    </header>
+
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+
+  <PostNav prev={prev} next={next} tripSlug={tripSlug!} />
+</Base>
+
+<style>
+  .breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+  }
+  .breadcrumb a { color: var(--text-muted); }
+
+  article { max-width: var(--max-width); }
+
+  header {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 0.25rem;
+  }
+
+  .subtitle {
+    display: block;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+  }
+
+  .meta {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
+  }
+  .tags li {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    background: #f3f3f3;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    color: var(--text-muted);
+  }
+
+  .prose {
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .prose :global(p) { margin-bottom: 1.25rem; }
+  .prose :global(h2) { font-size: 1.4rem; margin: 2rem 0 0.75rem; }
+  .prose :global(h3) { font-size: 1.15rem; margin: 1.5rem 0 0.5rem; }
+
+  .prose :global(img) {
+    width: 100%;
+    border-radius: 3px;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .prose :global(em) {
+    display: block;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: -0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .prose :global(blockquote) {
+    border-left: 3px solid var(--border);
+    padding-left: 1rem;
+    color: var(--text-muted);
+    margin: 1.5rem 0;
+  }
+
+  .prose :global(ul), .prose :global(ol) {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .prose :global(li) {
+    margin-bottom: 0.25rem;
+  }
+
+  .prose :global(li > p) {
+    margin-bottom: 0;
+  }
+
+  .prose :global(a) { color: var(--accent); }
+</style>

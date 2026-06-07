@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Search" description="Search all Kate + Pat posts.">
+  <h1 class="page-title">Search</h1>
+  <div id="search"></div>
+  <p id="search-unavailable" class="notice" style="display:none">
+    Search index not available in dev mode — run <code>npm run build</code> then <code>npm run preview</code> to use search.
+  </p>
+</Base>
+
+<link rel="stylesheet" href="/_pagefind/pagefind-ui.css" />
+
+<script>
+  async function initSearch() {
+    const el = document.getElementById('search');
+    const notice = document.getElementById('search-unavailable');
+    if (!el) return;
+
+    try {
+      // @ts-ignore — pagefind-ui is generated at build time
+      const { PagefindUI } = await import('/_pagefind/pagefind-ui.js');
+      new PagefindUI({
+        element: '#search',
+        showSubResults: false,
+        showImages: false,
+        resetStyles: false,
+        translations: {
+          placeholder: 'Search posts…',
+        },
+      });
+    } catch {
+      if (notice) notice.style.display = '';
+      if (el) el.style.display = 'none';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', initSearch);
+</script>
+
+<style>
+  .page-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .notice {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+  .notice code {
+    background: #f3f3f3;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+
+  /* Pagefind UI overrides to match site style */
+  :global(#search .pagefind-ui__search-input) {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 0.6rem 0.8rem;
+    width: 100%;
+    color: var(--text);
+    background: var(--bg);
+  }
+  :global(#search .pagefind-ui__search-input:focus) {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+    border-color: var(--accent);
+  }
+  :global(#search .pagefind-ui__search-clear) {
+    color: var(--text-muted);
+  }
+  :global(#search .pagefind-ui__result) {
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+  }
+  :global(#search .pagefind-ui__result-title a) {
+    font-family: 'Lora', Georgia, serif;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 1.05rem;
+  }
+  :global(#search .pagefind-ui__result-title a:hover) {
+    text-decoration: underline;
+  }
+  :global(#search .pagefind-ui__result-excerpt) {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+  }
+  :global(#search mark) {
+    background: #fff3b0;
+    color: inherit;
+    border-radius: 2px;
+  }
+  :global(#search .pagefind-ui__button) {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+</style>

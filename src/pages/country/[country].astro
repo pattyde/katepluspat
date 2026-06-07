@@ -1,0 +1,98 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { postSlugFromId } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const countries = [...new Set(posts.map(p => p.data.country))];
+  return countries.map(country => ({
+    params: { country: country.toLowerCase().replace(/\s+/g, '-') },
+    props: { countryName: country },
+  }));
+}
+
+const { countryName } = Astro.props;
+const allPosts = await getCollection('posts');
+const trips = await getCollection('trips');
+
+const posts = allPosts
+  .filter(p => p.data.country === countryName)
+  .sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+---
+<Base title={countryName} description={`All posts from ${countryName}.`}>
+  <nav class="breadcrumb"><a href="/">Trips</a> / {countryName}</nav>
+  <h1>{countryName}</h1>
+  <p class="count">{posts.length} {posts.length === 1 ? 'post' : 'posts'}</p>
+
+  <ol class="post-list">
+    {posts.map(post => {
+      const trip = trips.find(t => t.data.slug === post.data.trip);
+      return (
+        <li>
+          <a href={`/${post.data.trip}/${postSlugFromId(post.id)}/`}>
+            <span class="date">{post.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+            <span class="title">{post.data.title}</span>
+            <span class="trip">{trip?.data.title ?? post.data.trip}</span>
+          </a>
+        </li>
+      );
+    })}
+  </ol>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+  .breadcrumb a { color: var(--text-muted); }
+
+  h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+
+  .count {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .post-list {
+    list-style: none;
+    border-top: 1px solid var(--border);
+  }
+
+  li { border-bottom: 1px solid var(--border); }
+
+  a {
+    display: grid;
+    grid-template-columns: 7rem 1fr auto;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.85rem 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover .title { color: var(--accent); }
+
+  .date {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  .trip {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 540px) {
+    a { grid-template-columns: 1fr; gap: 0.2rem; }
+    .trip { display: none; }
+  }
+</style>

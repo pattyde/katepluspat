@@ -1,0 +1,74 @@
+---
+import { postSlugFromId } from '../lib/posts';
+
+interface Post {
+  id: string;
+  data: {
+    title: string;
+    date: Date;
+    country: string;
+  };
+}
+interface Props {
+  posts: Post[];
+  tripSlug: string;
+}
+const { posts, tripSlug } = Astro.props;
+---
+<ol class="post-list">
+  {posts.map(post => (
+    <li>
+      <a href={`/${tripSlug}/${postSlugFromId(post.id)}/`}>
+        <span class="date">{post.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+        <span class="title">{post.data.title}</span>
+        <span class="country">{post.data.country}</span>
+      </a>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .post-list {
+    list-style: none;
+    border-top: 1px solid var(--border);
+  }
+
+  li {
+    border-bottom: 1px solid var(--border);
+  }
+
+  a {
+    display: grid;
+    grid-template-columns: 7rem 1fr auto;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.85rem 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover .title { color: var(--accent); }
+
+  .date {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  .title { font-size: 1rem; }
+
+  .country {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 540px) {
+    a {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+    .country { display: none; }
+  }
+</style>
