@@ -7,6 +7,7 @@ interface Post {
     title: string;
     date: Date;
     country: string;
+    city?: string;
   };
 }
 interface Props {
@@ -21,7 +22,7 @@ const { posts, tripSlug } = Astro.props;
       <a href={`/${tripSlug}/${postSlugFromId(post.id)}/`}>
         <span class="date">{post.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
         <span class="title">{post.data.title}</span>
-        <span class="country">{post.data.country}</span>
+        <span class="country">{post.data.city ? `${post.data.city}, ${post.data.country}` : post.data.country}</span>
       </a>
     </li>
   ))}

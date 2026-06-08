@@ -5,6 +5,7 @@ date: "2023-07-27"
 author: "katepluspat"
 trip: "europe-2023"
 country: "England"
+city: "London"
 tags: []
 images:
   - path: "./images/large_IMG_0186.jpeg"

@@ -4,6 +4,7 @@ date: "2014-07-03"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Brazil"
+city: "Rio de Janeiro"
 tags: []
 images:
   - path: "./images/large_IMG_20140807_094248.jpg"

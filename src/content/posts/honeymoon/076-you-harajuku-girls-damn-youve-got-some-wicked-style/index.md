@@ -5,6 +5,7 @@ date: "2014-03-23"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Japan"
+city: "Tokyo"
 tags: []
 images:
   - path: "./images/large_IMG_20140408_093236.jpg"

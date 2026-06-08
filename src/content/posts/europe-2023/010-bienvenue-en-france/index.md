@@ -5,6 +5,7 @@ date: "2023-07-18"
 author: "katepluspat"
 trip: "europe-2023"
 country: "France"
+city: "Saint-Malo"
 tags: []
 images:
   - path: "./images/IMG_0082.jpeg"

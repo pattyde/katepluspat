@@ -48,7 +48,7 @@ const formattedDate = post.data.date.toLocaleDateString('en-AU', {
       <p class="meta">
         <time datetime={post.data.date.toISOString()}>{formattedDate}</time>
         &middot;
-        <a href={`/country/${post.data.country.toLowerCase().replace(/\s+/g, '-')}/`}>{post.data.country}</a>
+        {post.data.city && <span>{post.data.city}, </span>}<a href={`/country/${post.data.country.toLowerCase().replace(/\s+/g, '-')}/`}>{post.data.country}</a>
       </p>
       {post.data.tags.length > 0 && (
         <ul class="tags">

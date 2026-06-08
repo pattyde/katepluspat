@@ -5,6 +5,7 @@ date: "2014-04-20"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Germany"
+city: "Munich"
 tags: []
 images:
   - path: "./images/large_IMG_20140514_094143.jpg"

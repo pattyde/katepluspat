@@ -5,6 +5,7 @@ date: "2023-07-11"
 author: "katepluspat"
 trip: "europe-2023"
 country: "Australia"
+city: "Sydney"
 tags: []
 images:
   - path: "./images/large_D8803CFE-B1E7-47AF-AA50-FF32556DF9CE.jpeg"

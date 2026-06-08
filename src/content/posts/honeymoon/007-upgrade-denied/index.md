@@ -5,6 +5,7 @@ date: "2014-02-06"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Singapore"
+city: "Singapore"
 tags: []
 images:
   - path: "./images/1_13917062..l-companion.jpg"

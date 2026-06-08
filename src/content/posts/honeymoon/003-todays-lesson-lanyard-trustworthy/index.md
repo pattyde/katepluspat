@@ -4,6 +4,7 @@ date: "2014-02-07"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Thailand"
+city: "Bangkok"
 tags:
   - "standing buddha"
   - "official with a lanyard"

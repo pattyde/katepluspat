@@ -5,6 +5,7 @@ date: "2014-07-24"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Amarillo"
 tags: []
 images:
   - path: "./images/large_IMG_20140812_205235.jpg"

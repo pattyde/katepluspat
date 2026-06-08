@@ -5,6 +5,7 @@ date: "2014-07-25"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Fredericksburg"
 tags: []
 images:
   - path: "./images/large_IMG_20140813_212121.jpg"

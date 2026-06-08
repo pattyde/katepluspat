@@ -5,6 +5,7 @@ date: "2014-05-28"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Spain"
+city: "Madrid"
 tags: []
 images:
   - path: "./images/large_IMG_20140609_211357.jpg"

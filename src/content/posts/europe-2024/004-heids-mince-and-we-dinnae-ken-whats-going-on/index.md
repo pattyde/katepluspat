@@ -5,6 +5,7 @@ date: "2024-12-29"
 author: "katepluspat"
 trip: "europe-2024"
 country: "Scotland"
+city: "Edinburgh"
 tags: []
 images:
   - path: "./images/large_87699552_Unknown.jpeg"

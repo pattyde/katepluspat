@@ -5,6 +5,7 @@ date: "2014-03-04"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Laos"
+city: "Luang Prabang"
 tags: []
 images:
   - path: "./images/IMG_20140318_175906.jpg"

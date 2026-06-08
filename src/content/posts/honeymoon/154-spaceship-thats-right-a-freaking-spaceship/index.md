@@ -5,6 +5,7 @@ date: "2014-07-20"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Los Angeles"
 tags: []
 images:
   - path: "./images/large_IMG_20140807_114914.jpg"

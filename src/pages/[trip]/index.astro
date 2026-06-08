@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import PostList from '../../components/PostList.astro';
 import TripMap from '../../components/TripMap.astro';
 import { getCollection } from 'astro:content';
+import itinerariesData from '../../data/itineraries.json';
 
 export async function getStaticPaths() {
   const trips = await getCollection('trips');
@@ -18,8 +19,8 @@ const posts = allPosts
   .filter(p => p.data.trip === tripSlug)
   .sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
 
-// Ordered list of unique countries for the route map
-const routeCountries = [...new Set(posts.map(p => p.data.country))];
+const tripItinerary = itinerariesData.trips.find(t => t.trip_id === tripSlug);
+const mapStops = tripItinerary?.stops ?? [];
 ---
 <Base title={tripData.data.title} description={tripData.data.summary}>
   <nav class="breadcrumb"><a href="/">Trips</a> / {tripData.data.title}</nav>
@@ -27,7 +28,7 @@ const routeCountries = [...new Set(posts.map(p => p.data.country))];
   {tripData.data.subtitle && <p class="subtitle">{tripData.data.subtitle}</p>}
   <p class="meta">{tripData.data.dateRange} &middot; {posts.length} posts &middot; {tripData.data.countries.join(', ')}</p>
 
-  {routeCountries.length >= 2 && <TripMap countries={routeCountries} />}
+  {mapStops.length >= 2 && <TripMap stops={mapStops} />}
 
   <PostList posts={posts} tripSlug={tripSlug!} />
 </Base>

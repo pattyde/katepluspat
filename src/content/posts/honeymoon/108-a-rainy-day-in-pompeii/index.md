@@ -5,6 +5,7 @@ date: "2014-05-03"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Italy"
+city: "Naples"
 tags: []
 images:
   - path: "./images/large_IMG_20140522_214216.jpg"

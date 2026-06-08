@@ -4,6 +4,7 @@ date: "2014-02-08"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Thailand"
+city: "Bangkok"
 tags: []
 images:
   - path: "./images/1_13937559..tto-dentist.jpg"

@@ -5,6 +5,7 @@ date: "2014-02-12"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Myanmar"
+city: "Old Bagan"
 tags: []
 images:
   - path: "./images/large_IMG_20140305_205044.jpg"

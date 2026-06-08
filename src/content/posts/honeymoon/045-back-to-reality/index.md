@@ -4,6 +4,7 @@ date: "2014-02-20"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Myanmar"
+city: "Ngapali"
 tags: []
 images:
   - path: "./images/IMG_20140311_203821.jpg"

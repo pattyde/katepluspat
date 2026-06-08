@@ -5,6 +5,7 @@ date: "2014-07-28"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Austin"
 tags: []
 images:
   - path: "./images/IMG_20140827_100621.jpg"

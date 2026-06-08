@@ -5,6 +5,7 @@ date: "2014-04-18"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Germany"
+city: "Füssen"
 tags: []
 images:
   - path: "./images/large_IMG_20140509_114605.jpg"

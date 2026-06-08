@@ -5,6 +5,7 @@ date: "2014-03-13"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Cambodia"
+city: "Siem Reap"
 tags: []
 images:
   - path: "./images/large_IMG_20140328_084823.jpg"

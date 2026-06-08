@@ -5,6 +5,7 @@ date: "2014-07-22"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Holbrook"
 tags: []
 images:
   - path: "./images/large_IMG_20140810_194155.jpg"

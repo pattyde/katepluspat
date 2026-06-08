@@ -5,6 +5,7 @@ date: "2014-02-25"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Laos"
+city: "Luang Namtha"
 tags: []
 images:
   - path: "./images/large_IMG_20140315_192602.jpg"

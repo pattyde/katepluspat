@@ -5,6 +5,7 @@ date: "2014-02-26"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Laos"
+city: "Nong Khiaw"
 tags: []
 images:
   - path: "./images/large_20140225_062721.jpg"

@@ -5,6 +5,7 @@ date: "2014-04-06"
 author: "katepluspat"
 trip: "honeymoon"
 country: "United Kingdom"
+city: "London"
 tags: []
 images:
   - path: "./images/large_IMG_20140428_083008.jpg"
