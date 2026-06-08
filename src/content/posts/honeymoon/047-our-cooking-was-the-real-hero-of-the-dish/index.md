@@ -27,7 +27,7 @@ images:
 ---
 Courtesy of Bobby Doyle, we had a cooking class scheduled for today that would hopefully end our frustrations with non-spicy Thai food once and for all.  Now we would be able to make our curry as spicy as we wanted (cue evil laugh).
 
-The teacher arrived about 9.30 with 4 people in the back of the truck already. Two Canadian girl from Nova Scotia a little younger than us and a Dutch couple a little older than us who live in Italy half the year running a catering company for Dutch tourists. Sounds like a good gig to me!
+The teacher arrived about 9.30 with 4 people in the back of the truck already. Two Canadian girls from Nova Scotia a little younger than us and a Dutch couple a little older than us who live in Italy half the year running a catering company for Dutch tourists. Sounds like a good gig to me!
 
 ![Local Market](./images/large_IMG_20140313_123145.jpg)
 
@@ -53,7 +53,7 @@ Somehow she managed to give everyone different instructions for different meals 
 
 *Pat misread the instructions and thought it said "put chili in eye" instead of "grind chili in mortar and pestle". Easy mistake to make.*
 
-During the break everyone had a bit fo a nap in hammocks while she cleaned up. Spent most of the time watching chickens and the dog. After our break we made deserts (banana and pumpkin in coconut milk), thai tea and a noodle dish each to take away. No plastic used here, all wrapped to go in banana leaves. Quite impressed with how well we cooked everything. Hopefully we don't forget it all!
+During the break everyone had a bit of a nap in hammocks while the teacher cleaned up. We spent most of the time watching chickens and the dog. After our break we made deserts (banana and pumpkin in coconut milk), thai tea and a noodle dish each to take away. No plastic used here, all wrapped to go in banana leaves. Quite impressed with how well we cooked everything. Hopefully we don't forget it all!
 
 ![Clever Take Away Container](./images/large_IMG_20140313_123801.jpg)
 
@@ -61,7 +61,7 @@ During the break everyone had a bit fo a nap in hammocks while she cleaned up. S
 
 After we arrived home, we left hotel in search of the night markets.  Stumbled across ASEAN festival with live music, food from all the South East Asian countries, and information about the group. Fun atmosphere! Got to watch a Thai pop star thrusting in leather jacket, girls screaming and swooning.
 
-Kept walking and eventually found markets. Mostly overpriced but very fun to walk through. Lots of fake watches, Beats by Dre headsets, and tons of knives and swords (a bit distressing). Didn't buy anything in the end. We headed home past a lot of seedy looking pubs, maybe the red light district? We both were feeling old and lame so we didn't go in anywhere and decided to call it a night.
+Kept walking and eventually found the markets. Mostly overpriced but very fun to walk through. Lots of fake watches, Beats by Dre headsets, and tons of knives and swords (a bit distressing). Didn't buy anything in the end. We headed home past a lot of seedy looking pubs, maybe the red light district? We both were feeling old and lame so we didn't go in anywhere and decided to call it a night.
 
 ![Coconut Milk Pancakes - Yum!](./images/large_IMG_20140313_123106.jpg)
 
