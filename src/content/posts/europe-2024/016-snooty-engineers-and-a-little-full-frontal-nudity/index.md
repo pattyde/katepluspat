@@ -5,6 +5,7 @@ date: "2025-01-08"
 author: "katepluspat"
 trip: "europe-2024"
 country: "Belgium"
+city: "Brussels"
 tags: []
 images:
   - path: "./images/large_155041AA-C649-4D57-8366-03FF7E8271DF.jpeg"

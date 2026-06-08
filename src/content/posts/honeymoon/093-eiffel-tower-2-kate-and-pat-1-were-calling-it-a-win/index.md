@@ -5,6 +5,7 @@ date: "2014-04-13"
 author: "katepluspat"
 trip: "honeymoon"
 country: "France"
+city: "Paris"
 tags: []
 images:
   - path: "./images/large_IMG_20140504_173241.jpg"

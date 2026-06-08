@@ -5,6 +5,7 @@ date: "2014-06-14"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Brazil"
+city: "Natal"
 tags: []
 images:
   - path: "./images/IMG_20140717_184346.jpg"

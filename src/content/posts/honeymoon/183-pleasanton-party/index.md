@@ -5,6 +5,7 @@ date: "2014-08-16"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Pleasanton"
 tags: []
 images:
   - path: "./images/large_IMG_1732.jpg"

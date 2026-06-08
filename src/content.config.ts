@@ -23,6 +23,7 @@ const posts = defineCollection({
     author: z.string().default('katepluspat'),
     trip: z.string(),
     country: z.string(),
+    city: z.string().optional(),
     tags: z.array(z.string()).default([]),
     images: z.array(z.object({
       path: z.string(),

@@ -5,6 +5,7 @@ date: "2014-06-08"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Argentina"
+city: "Buenos Aires"
 tags: []
 images:
   - path: "./images/large_IMG_20140630_084135.jpg"

@@ -5,6 +5,7 @@ date: "2014-08-14"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Boston"
 tags: []
 images:
   - path: "./images/large_IMG_20140814_084100.jpg"

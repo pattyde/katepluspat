@@ -5,6 +5,7 @@ date: "2014-07-23"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Santa Fe"
 tags: []
 images:
   - path: "./images/large_IMG_20140811_105815.jpg"

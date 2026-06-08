@@ -5,6 +5,7 @@ date: "2014-05-10"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Italy"
+city: "Levanto"
 tags: []
 images:
   - path: "./images/IMG_20140527_101441.jpg"

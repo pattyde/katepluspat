@@ -5,6 +5,7 @@ date: "2014-06-20"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Brazil"
+city: "Recife"
 tags: []
 images:
   - path: "./images/large_IMG_20140725_113101.jpg"

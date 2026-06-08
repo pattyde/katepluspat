@@ -5,6 +5,7 @@ date: "2014-02-22"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Thailand"
+city: "Chiang Mai"
 tags: []
 images:
   - path: "./images/large_IMG_20140313_123145.jpg"

@@ -4,6 +4,7 @@ date: "2014-04-23"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Turkey"
+city: "Istanbul"
 tags: []
 images:
   - path: "./images/large_IMG_20140515_160722.jpg"

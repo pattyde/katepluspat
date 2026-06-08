@@ -5,6 +5,7 @@ date: "2014-03-18"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Vietnam"
+city: "Hanoi"
 tags: []
 images:
   - path: "./images/large_IMG_20140403_073432.jpg"

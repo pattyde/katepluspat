@@ -5,6 +5,7 @@ date: "2014-03-07"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Laos"
+city: "Vang Vieng"
 tags: []
 images:
   - path: "./images/large_IMG_20140319_085031.jpg"

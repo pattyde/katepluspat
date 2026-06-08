@@ -4,6 +4,7 @@ date: "2014-03-10"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Cambodia"
+city: "Phnom Penh"
 tags: []
 images:
   - path: "./images/large_IMG_20140325_104210.jpg"

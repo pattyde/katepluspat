@@ -5,6 +5,7 @@ date: "2014-06-11"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Argentina"
+city: "Iguazu Falls"
 tags: []
 images:
   - path: "./images/large_10302111_1..755047951_n.jpg"

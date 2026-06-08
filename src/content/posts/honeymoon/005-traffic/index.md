@@ -5,6 +5,7 @@ date: "2014-02-09"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Thailand"
+city: "Bangkok"
 tags: []
 images:
   - path: "./images/large_1_13937601..ar-protests.jpg"

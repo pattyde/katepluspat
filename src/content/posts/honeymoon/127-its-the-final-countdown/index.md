@@ -5,6 +5,7 @@ date: "2014-06-02"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Peru"
+city: "Cusco"
 tags: []
 images:
   - path: "./images/large_IMG_20140612_202724.jpg"

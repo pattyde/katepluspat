@@ -5,6 +5,7 @@ date: "2025-01-02"
 author: "katepluspat"
 trip: "europe-2024"
 country: "Finland"
+city: "Saariselkä"
 tags: []
 images:
   - path: "./images/large_IMG_0443.jpeg"

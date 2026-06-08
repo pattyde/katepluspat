@@ -5,6 +5,7 @@ date: "2014-07-31"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Washington"
 tags: []
 images:
   - path: "./images/IMG_20140731_121752.jpg"

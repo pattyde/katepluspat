@@ -5,6 +5,7 @@ date: "2025-01-17"
 author: "katepluspat"
 trip: "europe-2024"
 country: "Malaysia"
+city: "Kuala Lumpur"
 tags: []
 images:
   - path: "./images/large_IMG_1837.JPG"

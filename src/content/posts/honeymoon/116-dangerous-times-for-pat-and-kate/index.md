@@ -5,6 +5,7 @@ date: "2014-05-19"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Spain"
+city: "Gandía"
 tags: []
 images:
   - path: "./images/large_IMG_20140531_064419.jpg"

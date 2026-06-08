@@ -5,6 +5,7 @@ date: "2014-07-26"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "San Antonio"
 tags: []
 images:
   - path: "./images/IMG_20140813_213831.jpg"

@@ -5,6 +5,7 @@ date: "2024-12-28"
 author: "katepluspat"
 trip: "europe-2024"
 country: "Netherlands"
+city: "Amsterdam"
 tags: []
 images:
   - path: "./images/87435968_Unknown.jpeg"

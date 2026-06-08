@@ -5,6 +5,7 @@ date: "2024-12-26"
 author: "katepluspat"
 trip: "europe-2024"
 country: "Australia"
+city: "Sydney"
 tags: []
 images:
   - path: "./images/large_IMG_0241.jpeg"

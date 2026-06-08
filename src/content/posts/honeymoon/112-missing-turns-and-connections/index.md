@@ -5,6 +5,7 @@ date: "2014-05-12"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Italy"
+city: "Ventimiglia"
 tags: []
 images:
   - path: "./images/large_IMG_20140528_093153.jpg"

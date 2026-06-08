@@ -5,6 +5,7 @@ date: "2014-08-02"
 author: "katepluspat"
 trip: "honeymoon"
 country: "USA"
+city: "Washington"
 tags:
   - "washington"
   - "dc"

@@ -5,6 +5,7 @@ date: "2014-06-05"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Peru"
+city: "Machu Picchu"
 tags: []
 images:
   - path: "./images/large_IMG_20140628_113017.jpg"

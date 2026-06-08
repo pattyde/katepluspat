@@ -5,6 +5,7 @@ date: "2014-06-25"
 author: "katepluspat"
 trip: "honeymoon"
 country: "Brazil"
+city: "Manaus"
 tags: []
 images:
   - path: "./images/large_IMG_20140728_093512.jpg"

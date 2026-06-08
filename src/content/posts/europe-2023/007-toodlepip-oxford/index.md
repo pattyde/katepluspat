@@ -5,6 +5,7 @@ date: "2023-07-17"
 author: "katepluspat"
 trip: "europe-2023"
 country: "United Kingdom"
+city: "Portsmouth"
 tags: []
 images:
   - path: "./images/large_IMG_0079.jpeg"

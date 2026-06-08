@@ -5,6 +5,7 @@ date: "2014-04-04"
 author: "katepluspat"
 trip: "honeymoon"
 country: "China"
+city: "Shanghai"
 tags: []
 images:
   - path: "./images/large_IMG_20140418_073746.jpg"
