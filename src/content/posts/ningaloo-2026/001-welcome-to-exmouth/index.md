@@ -37,7 +37,7 @@ We gather the recent cyclone has caused a bit of damage to the airport building.
 
 ![](./images/01_03.jpg)
 
-*Kids had never seen a public before and were amazed they could use it to call Nana*
+*Kids had never seen a public phone before and were amazed they could use it to call Nana*
 
 On the other side, there are a few gazebos set up with tables and chairs under them. No signage, no indication of why. After standing around awkwardly for a couple minutes, Pat asks someone where the rental car offices are. The man indicates to the tables and chairs under the gazebos. Ah. 
 
@@ -47,7 +47,7 @@ Safely installed in the car, we drove past the red dirt, huge termite mounds, sa
 
 ![](./images/01_04.JPG)
 
-*An amazing Hawk Moth we watched out front of our cabin*
+*An amazing hawk moth we watched out front of our cabin*
 
 Now we had a rego number from the rental car, we went online to get our digital parks pass. We soon found our idea of ‘digital’ and theirs do not match. The ‘digital pass’ needs to be physically printed and left in the windscreen of the car. Surprisingly we have no printer, nor does the remote, cyclone damaged accommodation we’re staying in*. Problem for tomorrow. 
 
