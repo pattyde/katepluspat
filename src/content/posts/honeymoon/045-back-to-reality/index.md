@@ -18,7 +18,7 @@ Sadly after 5 days we had to leave Ngapali. On the drive to the airport  the roa
 
 ![](./images/IMG_20140311_203821.jpg)
 
-Back to the airport, back to chaos. A guy from our hotel took everyone's passports and tickets and went to "immigration" (why is there immigration for these domestic flights?? A lady came by trying to scam people out of $1 for "luggage tax". Most people got out their wallets, but Kate was having none of it and told her to beat it. We went through "security" (which consisted of a metal detector that wasn't turned on and a xray machine that also wasn't turned on) without incident. Phew! Then off to Yangon.
+Back to the airport, back to chaos. A guy from our hotel took everyone's passports and tickets and went to "immigration" (why is there immigration for these domestic flights??) A lady came by trying to scam people out of $1 for "luggage tax". Most people got out their wallets, but Kate was having none of it and told her to beat it. We went through "security" (which consisted of a metal detector that wasn't turned on and a xray machine that also wasn't turned on) without incident. Phew! Then off to Yangon.
 
 Arrived, another insane airport. I miss the beach. Everyone's bags from all flights were just dumped in a pile on the floor in the "arrivals hall". People were crowding the doors like animals waiting for their bags, shoving other people out of the way to get to the front, as if that will make them come faster.
 
