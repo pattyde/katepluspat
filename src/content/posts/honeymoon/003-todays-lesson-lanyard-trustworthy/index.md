@@ -32,9 +32,9 @@ Unfortunately even with that entertainment, the taxi ride was  painful. The driv
 
 It has been 6 years since Kate last visited Bangkok and it doesn't smell as bad as she remembers. However the mental clumps of power lines are worse. As is the traffic, but whether that's just due to the protests is hard to say.
 
-The hotel was very clean and nice. Of primary importance the air conditioning killed it, and the desk staff were really lovely and helpful. They also supplied a free tuk tuk to grand palace which we took advantage of.
+The hotel was very clean and nice. Of primary importance the air conditioning killed it, and the desk staff were really lovely and helpful. They also supplied a free tuk tuk to the Grand Palace which we took advantage of.
 
-Unfortunately on arrival we couldn't get in because Pat (the trollop) was wearing shorts that exposed his knees. How I could marry someone so salacious? There was a sign indicating you could rent pants but there was also a huge queue. While we were umm-ing and ahh-ing an "official" with a lanyard approached us and suggested we to come back at 2pm when the crowds will be smaller. He put us into a tuk tuk for a 'city tour'. We knew it was a scam and we shouldn't do it. Then we did it anyways. We are dumb, but he had a lanyard!! Not just anyone has one of them!
+Unfortunately on arrival we couldn't get into the palace because Pat (the trollop) was wearing shorts that exposed his knees. How I could marry someone so salacious? There was a sign indicating you could rent pants but there was also a huge queue. While we were umm-ing and ahh-ing an "official" with a lanyard approached us and suggested we to come back at 2pm when the crowds will be smaller. He put us into a tuk tuk for a 'city tour'. We knew it was a scam and we shouldn't do it. Then we did it anyways. We are dumb, but he had a lanyard!! Not just anyone has one of them!
 
 ![Standing Buddha](./images/large_1_13917927..ding-buddha.jpg)
 
@@ -52,9 +52,9 @@ All in all, for $2 it was still a fun city tour.
 
 *Far Away Bar*
 
-We were pretty hungry now so we headed to Khaosan Road for lunch. Got some big beers, green curry and pad Thai. Not spicy but not bad. We walked down an alleyway Kate had fond memories of to find the Far Away Bar (they're never close) and found it was much busier and bigger than it was 8 years ago. Loads more restaurants, hotels, cocktail bars set up on the side of the road and tons of deck chairs with locals offering Thai massage. We found Kate's old bar which was also significantly expanded and busier. We had a cocktail and people watched all the dirty hippies, white bogans and backpackers. Aside from staff, there were no Thai people.
+We were pretty hungry now, so we headed to Khaosan Road for lunch. Got some big beers, green curry and pad Thai. Not spicy but not bad. We walked down an alleyway Kate had fond memories of to find the Far Away Bar (they're never close) and found it was much busier and bigger than it was 8 years ago. Loads more restaurants, hotels, cocktail bars set up on the side of the road and tons of deck chairs with locals offering Thai massage. We found Kate's old bar which was also significantly expanded and busier. We had a cocktail and people watched all the dirty hippies, white bogans and backpackers. Aside from staff, there were no Thai people.
 
-When the afternoon started to move into the evening we headed back to the hotel for a shower and headed back out to dinner at Cabbages and Condoms, a suggestion by Gill Townsend. The restaurant aims to raise funds and awareness of safe sex for family planning purposes. The decor of the whole place was condoms right down to light shades, so they got that bit right. However, despite being yummy, we saw no cabbages in our food.
+When the afternoon started to move into the evening we headed back to the hotel for a shower then went back out to dinner at Cabbages and Condoms, a suggestion by Gill Townsend. The restaurant aims to raise funds and awareness of safe sex for family planning purposes. The decor of the whole place was condoms right down to light shades, so they got that bit right. However, despite being yummy, we saw no cabbages in our food.
 
 All in all a good first official day to the trip!
 
