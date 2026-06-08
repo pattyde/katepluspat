@@ -32,9 +32,9 @@ We only noticed the change after we had checked in, cleared immigration, and wen
 
 7 hours of uneventful flying later (watched Rush and Gravity which were both great) we arrived at the service desk to be met with blank stares and 'a note on what?? About who?? Huh?? Let me get my manager'.  
    
-To Singapore Airlines credit after a long chat and a moderate wait (and a mini mental breakdown from Kate (number two for the trip so far, for those keeping score)), they eventually set us up with dinner vouchers, a room in the airport hotel, and breakfast vouchers for our troubles, so in the end it worked out about as well as it could have given the hideous layover that has been sprung on us.  
+To Singapore Airlines' credit, after a long chat and a moderate wait (and a mini mental breakdown from Kate (number two for the trip so far, for those keeping score)), they eventually set us up with dinner vouchers, a room in the airport hotel, and breakfast vouchers for our troubles. So in the end it worked out about as well as it could have given the hideous layover that has been sprung on us.  
    
-So for now, we are posted in the Singapore Airlines gold lounge with a cold pint of beer, a glass of French wine, and a plate of chicken wings and mini cheeses. All of which Kate has spilled on herself already. Life could be worse 🙂
+So for now, we are posted in the Singapore Airlines gold lounge with a cold pint of beer, a glass of French wine, a plate of chicken wings and mini cheeses. All of which Kate has spilled on herself already. Life could be worse 🙂
 
 More updates to come, hopefully about how much fun we're having and not about flight dramas!
 
