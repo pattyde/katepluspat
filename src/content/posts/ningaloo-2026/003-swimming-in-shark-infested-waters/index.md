@@ -8,8 +8,8 @@ country: Australia
 city: "Cape Range National Park"
 tags: []
 images:
-    - path: "./images/photo.jpg"
-    caption: "Optional caption"
+  - path: ""
+    caption: ""
 ---
 
 Today is whale shark day! We went with a company Dot and Tim recommend, Live Ningaloo. Our bus collected us at 8.15 from Yardie, which was the last pick up spot before heading to the boat jetty. The first part of our journey involved taking a small  tender out to our larger boat for the day: Wave Rider. Pat’s proclivity for getting sea sick wasn’t thrilled by the aggressive name of the boat, but we’d all loaded up on sea sickness medication so hopefully that would keep illness at bay. 
