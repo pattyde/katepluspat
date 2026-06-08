@@ -36,6 +36,7 @@ npm run preview    # preview the production build locally (required to test sear
    author: katepluspat
    trip: europe-2024
    country: Malaysia
+   city: Kuala Lumpur
    tags:
      - optional tag
    images:
