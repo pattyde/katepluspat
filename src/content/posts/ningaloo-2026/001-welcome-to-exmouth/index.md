@@ -20,11 +20,11 @@ images:
     caption: ""
 ---
 
-Almost six days had passed since landing from our whirlwind trip to Toronto (via Vancouver via Nadi) for Taylor's wedding. So we figured we might as well keep the jetlag going, and commenced another convoluted transit to a time zone as far from Toronto as you can go without getting closer again. 
+Almost six days had passed since landing from our whirlwind trip to Toronto (via Vancouver via Nadi) for Taylor's wedding. So we figured we might as well keep the jetlag going, and commenced further convoluted transit to a time zone as far from Toronto as you can go without getting closer again. 
 
 The biggest motivator for this trip was swimming with the whale sharks, ostensibly for Pat's 40th, but largely driven by jealously after Bini and Todd's similar trip last year. 
 
-The journey to Ningaloo, Western Australia involved two flights to get to Perth, and an overnight stay, and another flight to Learmonth. Getting over to Perth, we shared a few confusing conversations with fight attendants who saw the girls' braids as a great conversation starter, but couldn't understand why a family returning to Canberra from Fiji were on a flight to Perth. "Because of the whale sharks!" didn't seem to clear it up. 
+The journey to Ningaloo, Western Australia involved two flights to get to Perth, an overnight stay, and another flight to Learmonth. Getting over to Perth, we shared a few confusing conversations with fight attendants who saw the girls' braids as a great conversation starter, but couldn't understand why a family returning to Canberra from Fiji were on a flight to Perth. "Because of the whale sharks!" didn't seem to clear it up. 
 
 ![](./images/IMG_3927.JPG)
 ![](./images/IMG_3934.JPG)
