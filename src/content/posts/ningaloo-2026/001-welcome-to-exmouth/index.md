@@ -12,7 +12,7 @@ images:
     caption: ""
   - path: "./images/IMG_3934.JPG"
     caption: ""
-  - path: "./images/01_03.JPG"
+  - path: "./images/01_03.jpg"
     caption: ""
   - path: "./images/01_04.JPG"
     caption: ""
@@ -35,7 +35,7 @@ Landed late, a night in a Perth motel, back on a plane and we finally landed at 
 
 We gather the recent cyclone has caused a bit of damage to the airport building. Rather than exiting through the terminal, we’re guided from the runway, around the side of the building, and out an emergency exit in the gate. 
 
-![](./images/01_03.JPG)
+![](./images/01_03.jpg)
 
 *Kids had never seen a public before and were amazed they could use it to call Nana*
 
