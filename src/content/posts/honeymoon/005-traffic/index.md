@@ -32,11 +32,11 @@ images:
   - path: "./images/large_1_13937601..-of-bangkok.jpg"
     caption: "Entrée and a View of Bangkok"
 ---
-After an early start this morning we headed straight to the Golden Mound for a climb. Walking along the river we watched people set up their stalls. There were lots with whole fried fish etc out already- maybe from last night and will probably sit there all day. We reconsidered our position from yesterday, maybe we won't try street food today.  
+After an early start this morning, we headed straight to the Golden Mound for a climb. Walking along the river we watched people set up their stalls. There were lots with whole fried fish etc out already- maybe from last night and will probably sit there all day. We reconsidered our position from yesterday, maybe we won't try street food today.  
    
-When we started to get close a man stopped us saying the protest zone was ahead and there was no access to the Golden Mound today. He suggested other Buddhas we could visit, maybe the Standing Buddha? Kate, now suspicious of dodgy city tours, said no thanks.  
+When we started to get close a man stopped us saying the protest zone was ahead and there was no access to the Golden Mound today. He suggested other Buddhas we could visit - maybe the Standing Buddha? Kate, now suspicious of dodgy city tours, said no thanks.  
    
-On we trundled, about a block further along we came upon a huge protest zone - the road to the Golden Mound is closed. We should have trusted that man! He didn't have a lanyard! Have we learnt nothing!?! We pause and wonder if maybe this will be like the top of the Eiffel Tower and we're doomed to never get there. We rally. 'Avoid protest zones', what does the Australian Government know?? We decide to go alongside the protest zone down the street and try to get in from other direction (sorry Mum).
+On we trundled. About a block further along we came upon a huge protest zone - the road to the Golden Mound is closed. We should have trusted that man! He didn't have a lanyard! Have we learnt nothing!?! We pause and wonder if maybe this will be like the top of the Eiffel Tower and we're doomed to never get there. We rally. 'Avoid protest zones', what does the Australian Government know?? We decide to go alongside the protest zone down the street and try to get in from other direction (sorry Mum).
 
 ![Blockades Near Protests](./images/large_1_13937601..ar-protests.jpg)
 
