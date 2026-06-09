@@ -2,40 +2,103 @@
 import { CITY_COORDS } from '../data/city-coords';
 
 interface Props {
-  stops: { city: string; country: string }[];
+  stops: { city: string; country: string; transport?: string; date_start?: string; date_end?: string }[];
 }
 const { stops } = Astro.props;
 
-// Resolve coordinates server-side; stops with no known coords are skipped
-const coords: [number, number][] = stops
-  .map(s => CITY_COORDS[s.city])
-  .filter((c): c is [number, number] => c != null);
+const stopData = stops
+  .map(s => ({ city: s.city, country: s.country, transport: s.transport ?? null, date_start: s.date_start ?? null, date_end: s.date_end ?? null, coords: CITY_COORDS[s.city] ?? null }))
+  .filter(s => s.coords != null);
 ---
 <div id="trip-map"></div>
+<div id="trip-map-stats"></div>
 
-<script define:vars={{ coords }}>
+<script define:vars={{ stopData }}>
+  const TRANSPORT_STYLES = {
+    plane: { dashArray: '6 6',     weight: 2, opacity: 0.6, label: 'Plane'  },
+    car:   { dashArray: null,      weight: 2, opacity: 0.7, label: 'Drive'  },
+    train: { dashArray: '2 6',     weight: 2, opacity: 0.7, label: 'Train'  },
+    ferry: { dashArray: '8 4 2 4', weight: 2, opacity: 0.7, label: 'Ferry'  },
+    bus:   { dashArray: '4 4',     weight: 2, opacity: 0.7, label: 'Bus'    },
+    walk:  { dashArray: '1 5',     weight: 2, opacity: 0.8, label: 'Walk'   },
+  };
+
+  function haversineKm([lat1, lon1], [lat2, lon2]) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+
+  function formatPopup(stop) {
+    let html = `<strong>${stop.city}</strong><br><span style="color:#666;font-size:0.85em">${stop.country}</span>`;
+    if (stop.date_start) {
+      const fmt = d => new Date(d + 'T00:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
+      html += `<br><span style="color:#666;font-size:0.85em">${stop.date_end && stop.date_end !== stop.date_start ? fmt(stop.date_start) + ' – ' + fmt(stop.date_end) : fmt(stop.date_start)}</span>`;
+    }
+    return html;
+  }
+
   async function initMap() {
-    if (coords.length < 2) return;
+    if (stopData.length < 2) return;
 
     const L = (await import('https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.esm.js')).default
       ?? (await import('https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.esm.js'));
 
     const map = L.map('trip-map', { scrollWheelZoom: false });
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
     }).addTo(map);
 
     // Deduplicate consecutive identical coordinates
-    const deduped = coords.filter((c, i) =>
-      i === 0 || c[0] !== coords[i - 1][0] || c[1] !== coords[i - 1][1]
+    const deduped = stopData.filter((s, i) =>
+      i === 0 || s.coords[0] !== stopData[i - 1].coords[0] || s.coords[1] !== stopData[i - 1].coords[1]
     );
 
-    L.polyline(deduped, { color: '#2a5f8f', weight: 2, opacity: 0.7 }).addTo(map);
-    deduped.forEach(coord => {
-      L.circleMarker(coord, { radius: 5, color: '#2a5f8f', fillColor: '#fff', fillOpacity: 1, weight: 2 }).addTo(map);
+    // Draw one polyline per leg, styled by transport mode
+    for (let i = 1; i < deduped.length; i++) {
+      const style = TRANSPORT_STYLES[deduped[i].transport] ?? TRANSPORT_STYLES.car;
+      L.polyline([deduped[i - 1].coords, deduped[i].coords], { color: '#2a5f8f', ...style }).addTo(map);
+    }
+
+    // Draw clickable markers with popups
+    deduped.forEach(stop => {
+      L.circleMarker(stop.coords, { radius: 5, color: '#2a5f8f', fillColor: '#fff', fillOpacity: 1, weight: 2 })
+        .bindPopup(formatPopup(stop), { maxWidth: 180 })
+        .addTo(map);
     });
 
-    map.fitBounds(L.polyline(deduped).getBounds(), { padding: [24, 24] });
+    map.fitBounds(L.polyline(deduped.map(s => s.coords)).getBounds(), { padding: [24, 24] });
+
+    // Legend — only show modes actually used in this trip
+    const usedModes = [...new Set(deduped.slice(1).map(s => s.transport).filter(Boolean))];
+    if (usedModes.length > 0) {
+      const legend = L.control({ position: 'bottomleft' });
+      legend.onAdd = () => {
+        const div = L.DomUtil.create('div', 'trip-legend');
+        div.innerHTML = usedModes.map(mode => {
+          const style = TRANSPORT_STYLES[mode] ?? TRANSPORT_STYLES.car;
+          const dash = style.dashArray
+            ? `stroke-dasharray="${style.dashArray.split(' ').map((v, i) => i === 0 ? v : v).join(' ')}"`
+            : '';
+          return `<div class="trip-legend-row">
+            <svg width="28" height="10" viewBox="0 0 28 10">
+              <line x1="0" y1="5" x2="28" y2="5" stroke="#2a5f8f" stroke-width="2" ${dash} />
+            </svg>
+            <span>${style.label}</span>
+          </div>`;
+        }).join('');
+        return div;
+      };
+      legend.addTo(map);
+    }
+
+    // Calculate and display total distance
+    const totalKm = deduped.reduce((sum, s, i) => i === 0 ? 0 : sum + haversineKm(deduped[i - 1].coords, s.coords), 0);
+    document.getElementById('trip-map-stats').textContent = `Total distance: ${Math.round(totalKm).toLocaleString()} km`;
   }
 
   document.addEventListener('DOMContentLoaded', initMap);
@@ -48,6 +111,32 @@ const coords: [number, number][] = stops
     height: 320px;
     border-radius: 4px;
     border: 1px solid var(--border);
-    margin: 2rem 0;
+    margin: 2rem 0 0.5rem;
+  }
+
+  #trip-map-stats {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    text-align: right;
+    margin-bottom: 1.5rem;
+  }
+
+  :global(.trip-legend) {
+    background: white;
+    padding: 0.4rem 0.6rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  :global(.trip-legend-row) {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.2rem 0;
   }
 </style>
