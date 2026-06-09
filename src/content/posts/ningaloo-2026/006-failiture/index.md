@@ -58,6 +58,7 @@ Returned the wetsuits and tried Whalebone Brewing again - this time with success
 
 ![](./images/06_08.jpg)
 ![](./images/06_09.jpg)
+
 *Posers posing at Whalebone*
 
 On the way out of town we headed to the Charles Knife Canyon lookout. Road is closed past the plaque commentating the discovery of oil in this location. Gina would be proud.
