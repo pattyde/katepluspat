@@ -23,6 +23,24 @@ const stopData = stops
     walk:  { dashArray: '1 5',     weight: 2, opacity: 0.8, label: 'Walk'   },
   };
 
+  function arcPoints(a, b, steps = 50) {
+    const mx = (a[0] + b[0]) / 2;
+    const my = (a[1] + b[1]) / 2;
+    const dx = b[0] - a[0];
+    const dy = b[1] - a[1];
+    const len = Math.sqrt(dx * dx + dy * dy);
+    const offset = len * 0.25;
+    const cx = mx - dy / len * offset;
+    const cy = my + dx / len * offset;
+    return Array.from({ length: steps + 1 }, (_, i) => {
+      const t = i / steps;
+      return [
+        (1-t)**2 * a[0] + 2*(1-t)*t * cx + t**2 * b[0],
+        (1-t)**2 * a[1] + 2*(1-t)*t * cy + t**2 * b[1],
+      ];
+    });
+  }
+
   function haversineKm([lat1, lon1], [lat2, lon2]) {
     const R = 6371;
     const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -61,7 +79,10 @@ const stopData = stops
     // Draw one polyline per leg, styled by transport mode
     for (let i = 1; i < deduped.length; i++) {
       const style = TRANSPORT_STYLES[deduped[i].transport] ?? TRANSPORT_STYLES.car;
-      L.polyline([deduped[i - 1].coords, deduped[i].coords], { color: '#2a5f8f', ...style }).addTo(map);
+      const points = deduped[i].transport === 'plane'
+        ? arcPoints(deduped[i - 1].coords, deduped[i].coords)
+        : [deduped[i - 1].coords, deduped[i].coords];
+      L.polyline(points, { color: '#2a5f8f', ...style }).addTo(map);
     }
 
     // Draw clickable markers with popups
@@ -84,9 +105,12 @@ const stopData = stops
           const dash = style.dashArray
             ? `stroke-dasharray="${style.dashArray.split(' ').map((v, i) => i === 0 ? v : v).join(' ')}"`
             : '';
+          const lineEl = mode === 'plane'
+            ? `<path d="M0,9 Q14,0 28,9" fill="none" stroke="#2a5f8f" stroke-width="2" stroke-dasharray="6 6" />`
+            : `<line x1="0" y1="5" x2="28" y2="5" stroke="#2a5f8f" stroke-width="2" ${dash} />`;
           return `<div class="trip-legend-row">
             <svg width="28" height="10" viewBox="0 0 28 10">
-              <line x1="0" y1="5" x2="28" y2="5" stroke="#2a5f8f" stroke-width="2" ${dash} />
+              ${lineEl}
             </svg>
             <span>${style.label}</span>
           </div>`;
