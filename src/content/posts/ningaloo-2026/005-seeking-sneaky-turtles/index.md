@@ -13,7 +13,7 @@ Today we'd hoped to do the Badjirrajirra Walk, but it's closed from cyclone dama
 
 ![](./images/05_01.JPG)
 
-*Totally reasonable time of day to set off into the wilderness. These kids...*
+*The sun is almost up! Totally reasonable time of day to set off into the wilderness. These kids...*
 
 Along the way, we spotted some interesting sun-bleached snail shells, some quartz, the aforementioned cairns (which the kids enjoyed adding to) and heard plenty of birds chirping. Margot was chuffed that she was allowed to scream “potato” as loud as she could. The word was chosen because we all agreed that anyone who heard it was unlikely to think there was an actual emergency. To keep her mind from focusing on the walk, Margot retold the Trolls movie scene by scene. Surprisingly, she’d only seen the movie once before and was somehow already able to effectively able to quote the whole thing.
 
