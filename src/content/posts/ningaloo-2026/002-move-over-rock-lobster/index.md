@@ -79,10 +79,10 @@ At the end of the boat trip it was still a bit drizzly and we didn't feel inclin
 
 They have now adopted faux Scottish accents and are practicing their warrior skills by throwing rocks at palm trees. 
 
-![](./images/02_09.JPG)
+![](./images/02_09.jpg)
 
 *Freedom!!!*
 
-![](./images/02_12.JPG)
+![](./images/02_12.jpg)
 
 *Who needs a whale shark snorkle when you've got street art*
