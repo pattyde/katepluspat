@@ -56,6 +56,10 @@ Yardie is the only creek in the area that reliably has water in it, and we're on
 
 The black footed rock wallabies are an endangered species worldwide but are clearly thriving here. By the time we made it as far up creek as the boat would take us, the kids counted 43. Among other interesting facts about them, the one that struck Kate was that if the environmental factors are not favourable for having a baby (e.g. drought, lack of food) they can pause their pregnancy for up to 6 months. While theoretically amazing, pregnancy sucks and adding 6 months sounds like hell. 
 
+![](./images/02_13.JPG)
+
+*6 extra months of pregnancy would make anyone hypercritical*
+
 In addition to all of the wallaby families, we saw a good selection of birdlife. The most impressive was an osprey nest (I told you not to worry!) with the parents hanging out taking care of their egg. The male took off and did a few majestic circles around the creek and the boat before heading out to sea to get some grub. We also saw bats hanging from a tree (a colony which had apparently survived the cyclone) and a bunch of egrets and appropriately named grey egrets. Bet you can’t guess why they’re called grey egrets. 
 
 ![](./images/02_05.JPG)
