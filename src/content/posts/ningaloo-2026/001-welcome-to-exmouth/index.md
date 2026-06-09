@@ -32,7 +32,7 @@ The journey to Ningaloo, Western Australia involved two flights to get to Perth,
 
 *Somehow still excited about airports*
 
-Landed late, a night in a Perth motel, back on a plane and we finally landed at the tiny Learmonth airport. 
+Landed late, a night in a Perth motel, back on a plane and we finally arrived at the tiny Learmonth airport. 
 
 We gather the recent cyclone has caused a bit of damage to the airport building. Rather than exiting through the terminal, we’re guided from the runway, around the side of the building, and out an emergency exit in the gate. 
 
