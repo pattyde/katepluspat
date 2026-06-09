@@ -60,19 +60,19 @@ The black footed rock wallabies are an endangered species worldwide but are clea
 
 *Unbelievable colours*
 
-In addition to all of the wallaby families, we saw a good selection of birdlife. The most impressive was an osprey nest (I told you not to worry!) with the parents hanging out taking care of their egg. The male took off and did a few majestic circles around the creek and the boat before heading out to sea to get some grub. We also saw bats hanging from a tree (a colony which had apparently survived the cyclone) and a bunch of egrets and appropriately named grey egrets. Bet you can’t guess why they’re called grey egrets. 
+In addition to all of the wallaby families, we saw a good selection of birdlife. The most impressive was an osprey nest with the parents hanging out taking care of their egg. The male took off and did a few majestic circles around the creek and the boat before heading out to sea to get some grub. We also saw bats hanging from a tree (a colony which had apparently survived the cyclone) and a bunch of egrets and appropriately named grey egrets. Bet you can’t guess why they’re called grey egrets. 
 
 ![](./images/02_05.JPG)
 
-*Mummy and Daddy osprey - not dead*
+*I told you not to worry!*
 
-Just before we had to turn around, we floated over an Aboriginal fish trap which was constructed in the early 1900s. It was brilliantly simple in its design. A rock wall was built up across the full width of the creek. It worked when the creek was open to the ocean and subject to the daily tides. During high tide, the top of the wall would be submerged and unsuspecting fish would swim up the creek having a grand ol time. At low tide the wall would be exposed; when the tide started to go out, the fish would try to head back out to sea but find themselves on the wrong side of the rock wall. The fishers would then use nets and spears to collect the fish.
+Just before we had to turn around, we floated over an Aboriginal fish trap which was constructed in the early 1900s. It was brilliantly simple in its design. A rock wall was built up across the full width of the creek. It worked when the creek was open to the ocean and subject to the daily tides. During high tide, the top of the wall would be submerged and unsuspecting fish would swim up the creek having a grand ol' time. At low tide the wall would be exposed; when the tide started to go out, the fish would try to head back out to sea but find themselves on the wrong side of the rock wall. The fishers would then use nets and spears to collect the fish.
 
 ![](./images/02_06.JPG)
 
 *Spot the photo bomber*
 
-We also learned about the etymology for Yardi Creek. One of the original European settlers, an ornithologist named Thomas Carter, apparently had a lot of respect for and got along well with the traditional owners of the land. Yardi, in the local language, means “creek”. So in honour of the traditional owners he named the creek Yardi Creek. Creek Creek. It’s got a nice ring to it.
+We also learned about the etymology for Yardie Creek. One of the original European settlers, an ornithologist named Thomas Carter, apparently had a lot of respect for and got along well with the traditional owners of the land. Yardie, in the local language, means “creek”. So in honour of the traditional owners he named the creek Yardie Creek. Creek Creek. It’s got a nice ring to it.
 
 As promised, the kids got to drive the boat at the end. Margot was a little miffed when every kid on the boat got a turn, even the rock wallaby losers. Outrageous. 
 
