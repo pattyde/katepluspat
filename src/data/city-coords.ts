@@ -79,4 +79,7 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   'New York':        [ 40.71,  -74.01],
   'Boston':          [ 42.36,  -71.06],
   'Vancouver':       [ 49.28, -123.12],
+  'Perth':           [-31.95,  115.86],
+  'Exmouth':         [-21.93,  114.12],
+  'Ningaloo':        [-22.68,  113.77],
 };
