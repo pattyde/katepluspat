@@ -15,8 +15,8 @@ const stopData = stops
 
 <script define:vars={{ stopData }}>
   const TRANSPORT_STYLES = {
-    plane: { dashArray: '6 6',     weight: 2, opacity: 0.6, label: 'Plane'  },
-    car:   { dashArray: null,      weight: 2, opacity: 0.7, label: 'Drive'  },
+    fly:   { dashArray: '6 6',     weight: 2, opacity: 0.6, label: 'Plane'  },
+    drive: { dashArray: null,      weight: 2, opacity: 0.7, label: 'Drive'  },
     train: { dashArray: '2 6',     weight: 2, opacity: 0.7, label: 'Train'  },
     ferry: { dashArray: '8 4 2 4', weight: 2, opacity: 0.7, label: 'Ferry'  },
     bus:   { dashArray: '4 4',     weight: 2, opacity: 0.7, label: 'Bus'    },
@@ -78,8 +78,8 @@ const stopData = stops
 
     // Draw one polyline per leg, styled by transport mode
     for (let i = 1; i < deduped.length; i++) {
-      const style = TRANSPORT_STYLES[deduped[i].transport] ?? TRANSPORT_STYLES.car;
-      const points = deduped[i].transport === 'plane'
+      const style = TRANSPORT_STYLES[deduped[i].transport] ?? TRANSPORT_STYLES.drive;
+      const points = deduped[i].transport === 'fly'
         ? arcPoints(deduped[i - 1].coords, deduped[i].coords)
         : [deduped[i - 1].coords, deduped[i].coords];
       L.polyline(points, { color: '#2a5f8f', ...style }).addTo(map);
@@ -105,7 +105,7 @@ const stopData = stops
           const dash = style.dashArray
             ? `stroke-dasharray="${style.dashArray.split(' ').map((v, i) => i === 0 ? v : v).join(' ')}"`
             : '';
-          const lineEl = mode === 'plane'
+          const lineEl = mode === 'fly'
             ? `<path d="M0,9 Q14,0 28,9" fill="none" stroke="#2a5f8f" stroke-width="2" stroke-dasharray="6 6" />`
             : `<line x1="0" y1="5" x2="28" y2="5" stroke="#2a5f8f" stroke-width="2" ${dash} />`;
           return `<div class="trip-legend-row">
