@@ -1,6 +1,6 @@
 ---
 title: "Cow Farts"
-subtitle: "And other environmental conversations"
+subtitle: "And evil crabs"
 date: 2026-06-02
 author: katepluspat
 trip: ningaloo-2026
