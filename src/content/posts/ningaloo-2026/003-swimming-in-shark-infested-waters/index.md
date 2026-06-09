@@ -33,7 +33,7 @@ First dive of the day was a “gear check” snorkel at a lagoon on the reef. Th
 
 *Oh heeey*
 
-While we were moving, our plane had apparently spotted three whalesharks, but by the time we got there 2 had dived and 3 other ships were circling. It makes sense in retrospect, but at the time we didn't realise multiple boats would be at each shark. The WA government strictly (and pleasingly) limits the number of tour operators in the area as well as how long the boat’s passengers are allowed to be in the water with the wildlife (1 hour per day per boat). Knowing that, we’re even more glad that we splurged and went with the company we did. Our boat has a maximum of 10 passengers, all of whom can be in the water at the same time. Other companies have a max of 20 passengers and split them into two groups of 10 swimmers. So if you’re able to follow the complex sea math, we’re able to get twice as much time in the water.
+While we were moving, our plane had apparently spotted three whalesharks, but by the time we got there 2 had dived and 3 other ships were circling. It makes sense in retrospect, but at the time we didn't realise multiple boats would be at each shark. The WA government strictly (and pleasingly) limits the number of tour operators in the area as well as how long the boat’s passengers are allowed to be in the water with the whale sharks (1 hour per day per boat). Knowing that, we’re even more glad that we splurged and went with the company we did. Our boat has a maximum of 10 passengers, all of whom can be in the water at the same time. Other companies have a max of 20 passengers and split them into two groups of 10 swimmers. So if you’re able to follow the complex sea math, we’re able to get twice as much time in the water.
 
 ![](./images/03_04.jpg)
 
@@ -47,15 +47,15 @@ The reality, however, was much different than the logical theory described on th
 
 *Popcorn running rings around us*
 
-Rather than just hang around waiting for the other groups to have their turn, Nick took us to a humpback whale which had been spotted nearby. Needing to keep a distance of at least 30m from the whale, we hung back and watched it breach and splash a few times before heading back for our next turn with Popcorn. This time Popcorn was more or less traveling in a straight line, but she was moving quick! It was hard for us all to keep up, so again no opportunity for a group photo. The visibility wasn’t fantastic either; this is a side effect of the highly plankton rich water, which is why the fish are here in the first place. Eventually, Popcorn decided she’d had enough of us and dove (according to Gemma they can dive at least 2,500m; we don’t know how deep they can dive because the  trackers that are placed on them stop functioning at that point).
+Rather than just hang around waiting for the other groups to have their turn, Nick took us to a humpback whale which had been spotted nearby. Needing to keep a distance of at least 30m from the whale, we hung back and watched it breach and splash a few times before heading back for our next turn with Popcorn. This time Popcorn was more or less traveling in a straight line, but she was moving quick! It was hard for us all to keep up, so again no opportunity for a group photo. The visibility wasn’t fantastic either; this is a side effect of the highly plankton rich water, which is why the fish are here in the first place. Eventually, Popcorn decided she’d had enough of us and dove (according to Gemma they can dive at least 2,500m; we don’t know exactly how deep they can dive because the  trackers that are placed on them stop functioning at that point).
 
-Soon enough our spotter plane had another whale shark for us to visit and we set off. By now, the kids were getting pretty chilly with the combination of being wet + the wind from the boat pottering along the water. Ross selflessly lent them a massive woolly jacket which enveloped them both and kept them from turning into popsicles. There was only one other boat at the second fish when we arrived. This one was named Clover according to Violet and Margot, and who are we to argue?
+Soon enough our spotter plane had another whale shark for us to visit and we set off. By now, the kids were getting pretty chilly with the combination of being wet and the wind from the boat pottering along the water. Ross selflessly lent them a massive woolly jacket which enveloped them both and kept them from turning into popsicles. There was only one other boat at the second fish when we arrived. This one was named Clover according to Violet and Margot, and who are we to argue?
 
 ![](./images/03_06.jpg)
 
-*Spoiler - Kate and Vi and Clover*
+*Kate and Vi and Clover*
 
-Like Popcorn, Clover was also in a hurry. Kate was feeling much more comfortable in the water now, but kept the pool noodle just in case one of the kids needed it. Kate and Vi, aided by a tow from Gemma, managed to swim quickly enough to get to the front of Clover for a photo op, but again Pat and Margot were a bit too slow to keep up with Clover’s fast pace, so no family photo. Back on the boat, the kids made the joint call that they were too cold to keep going in the water and they wanted to dry off and warm up. Fair enough! So Kate took the kids to get changed while Pat hung out on the back of the boat. 
+Like Popcorn, Clover was also in a hurry. Kate was feeling much more comfortable in the water now, but kept the pool noodle just in case one of the kids needed it. Kate and Vi, aided by a tow from Gemma, managed to swim quickly enough to get to the front of Clover for a photo op. Again Pat and Margot were a bit too slow to keep up with Clover’s fast pace, so no family photo. Back on the boat, the kids made the joint call that they were too cold to keep going in the water and they wanted to dry off and warm up. Fair enough! So Kate took the kids to get changed while Pat hung out on the back of the boat. 
 
 ![](./images/03_07.jpg)
 
@@ -65,7 +65,7 @@ While Kate dressed the kids there was another opportunity to get in the water, s
 
 ![](./images/03_08.jpg)
 
-*Pat channeling his inner Fonz*
+*Pat channeling his inner Fonz - "ayyyy!"*
 
 Back at our mooring on the reef we stopped for our final snorkel of the day. Despite there being quite a strong current this swim was much more fun for Kate and the kids because there was no time limit and the swim wasn’t so structured. The coral below us was quite deep, maybe 5-7m (take that estimation with a massive grain of salt). Understandably, Kate wanted to get closer to the coral to get a better view. It occurred to her that this is probably what motivates people to learn to scuba. Perhaps getting comfy snorkelling prior to getting into scuba would have made the whole ‘learn to dive’ experience less stressful.
 
@@ -73,7 +73,7 @@ In the water, Margot tracked Ross down to ask for a photo of her diving. Ross co
 
 ![](./images/03_09.jpg)
 
-*He caved eventually*
+*Ross caved eventually*
 
 All in all great day, but far from low stress. It’s a totally different experience when only 30% of you can be enjoying the moment because the rest is keeping eyes on kids and worrying they'll drown or drift off with the current. The staff were all excellent and really kept a close eye on them. Another guest, cancer doctor Terry, was also great showing the girls lots of pics from his GoPro and chatting with them to keep them entertained when Pat was doing his solo thing in the water. Despite the cold, the kids enjoyed themselves too. I don’t think either of them were stressed about drowning - that’s the privilege of being a kid! 
 
