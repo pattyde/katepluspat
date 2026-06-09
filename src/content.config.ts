@@ -20,6 +20,7 @@ const posts = defineCollection({
     title: z.string(),
     subtitle: z.string().optional(),
     date: z.coerce.date(),
+    endDate: z.coerce.date().optional(),
     author: z.string().default('katepluspat'),
     trip: z.string(),
     country: z.string(),

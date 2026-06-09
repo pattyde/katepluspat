@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import PostNav from '../../../components/PostNav.astro';
 import { getCollection, render } from 'astro:content';
-import { postSlugFromId } from '../../../lib/posts';
+import { postSlugFromId, formatDateRange } from '../../../lib/posts';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -32,9 +32,7 @@ const { Content } = await render(post);
 const trips = await getCollection('trips');
 const tripData = trips.find(t => t.data.slug === tripSlug);
 
-const formattedDate = post.data.date.toLocaleDateString('en-AU', {
-  day: 'numeric', month: 'long', year: 'numeric',
-});
+const formattedDate = formatDateRange(post.data.date, post.data.endDate);
 ---
 <Base title={post.data.title} description={`${post.data.title} — ${formattedDate}, ${post.data.country}`}>
   <nav class="breadcrumb">
