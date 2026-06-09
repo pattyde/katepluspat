@@ -58,7 +58,7 @@ The black footed rock wallabies are an endangered species worldwide but are clea
 
 ![](./images/02_13.JPG)
 
-*6 extra months of pregnancy would make anyone hypercritical*
+*Unbelievable colours*
 
 In addition to all of the wallaby families, we saw a good selection of birdlife. The most impressive was an osprey nest (I told you not to worry!) with the parents hanging out taking care of their egg. The male took off and did a few majestic circles around the creek and the boat before heading out to sea to get some grub. We also saw bats hanging from a tree (a colony which had apparently survived the cyclone) and a bunch of egrets and appropriately named grey egrets. Bet you can’t guess why they’re called grey egrets. 
 
