@@ -41,8 +41,11 @@ Seeing the crowd quickly disappear at the low tide was a nice reminder that huma
 Favourite Things:
 
 **Vi**  -  Eel, blue and brown starfish, school of fish 
+
 **Margot** - All the fish, they're really cute. 
+
 **Pat** - Getting caught in a school of fish, little blue fish
+
 **Kate** - Various rainbow parrot fish, a jellyfish that almost hit Violet in the face before she noticed it, and a tube fish Margot showed her. 
 
 ![](./images/04_05.JPG)
