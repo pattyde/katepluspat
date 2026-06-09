@@ -1,7 +1,8 @@
 ---
 title: "Welcome to Exmouth"
 subtitle: "Australia's Centre for Devil Worship and Mind Control"
-date: 2026-05-30
+date: 2026-05-29
+endDate: 2026-05-30
 author: katepluspat
 trip: ningaloo-2026
 country: Australia

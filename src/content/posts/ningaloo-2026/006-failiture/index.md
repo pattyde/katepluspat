@@ -1,15 +1,14 @@
 ---
 title: "Failiture"
 subtitle: "Electricity is important"
-date: 2026-06-03
+date: 2026-06-04
+endDate: 2026-06-05
 author: katepluspat
 trip: ningaloo-2026
 country: Australia
 city: "Cape Range National Park"
 tags: []
-images:
-  - path: ""
-    caption: ""
+
 ---
 
 Thursday was penciled in for chores and errands. Wash clothes, IGA run, rent wetsuits (the cold has been a major limiting factor for the girls' snorkel endurance), petrol, and a sneaky lunch at the second craft brewery (Whalebone Distillery). 
@@ -18,19 +17,48 @@ Thursday was penciled in for chores and errands. Wash clothes, IGA run, rent wet
 
 With some local advice we found somewhere to borrow wetsuits for the kids, and then managed to get a waterproof phone case. 
 
+![](./images/06_01.JPG)
+
+*No leaks yet!*
+
 Suited up, we headed back to Osprey Bay and managed a much longer snorkel. Everyone saw a turtle! We finally figured out what rules and expectations were achievable for the kids and they were excellently behaved. 
 
-Vi liked - Turtle and ray 
-Margot liked - Turtle and school of fish
-Dad liked - flat sand fish and groper and turtle
+![](./images/06_02.JPG)
+
+*Vi liked - The turtle*
+
+![](./images/06_03.JPG)
+
+*Margot liked - School of fish*
+
+![](./images/06_04.JPG)
+
+*Dad liked - Flat sand fish...*
+
+![](./images/06_05.JPG)
+
+*And the groper*
+
 
 Kate can see that in many ways, it would have been better to end the week looking for whalesharks after the kids had built confidence with all these reef snorkels, and after we'd established expectations about acceptable behaviour in the ocean. That said, it did make sense to book it at the start of the week and leave the opportunity for a makeup tour if weather had forced ours to be cancelled. One day of tours was cancelled during our stay so it absolutely happens, and if we'd missed out altogether we'd have been pretty upset.
 
+![](./images/06_06.JPG)
+
+*Mum liked everyone listening and no one drowning*
+
 On our final day the kids were not in the mood to do anything at all. We went to look at Turquoise Bay and dip our feet in (Violet steadfastly refused and stayed in the car reading). Where the other reef beaches were rocky, this was a white sand beach with a gentle gradient down through sandy shallows with cute fish cutting laps around our feet. The beach was quiet when we arrived at 9.30, but was getting busy when we left at 10.10. Early appears to be the way to go if you want a quiet experience. 
+
+![](./images/06_07.jpg)
+
+*Enjoying the last bit of serenity before real life restarts*
 
 We'd left this reef until last because it's a drift snorkel - the current pulls you from South to North without any effort. Sounds delightful, but the gentle current ends in a strong rip that drags you all the way out to the deep ocean. You absolutely have to exit at the right point. We could imagine Violet busily looking at a turtle, not noticing us frantically trying to get her attention to swim out, or Margot not having enough kicking power to make it to shore. This morning we watched snorkelers out in the reef and thought the current didn't look too strong; it probably would have been fine. We will definitely come back here if we return to Ningaloo.
 
 Returned the wetsuits and tried Whalebone Brewing again - this time with success. Great outside area for the kids, really nice pizza. Bar staff got a bit archy when asked if the ginger beer was sweet and said there it was not as none of their drinks had added sugar. Kate tried it and found it was, in fact, sweet. A bit of research suggests gingerbeer can't be made without sugar. Oh well. The beer was good tho, so definitely would go back there on our next visit.
+
+![](./images/06_08.jpg)
+![](./images/06_09.jpg)
+*Posers posing at Whalebone*
 
 On the way out of town we headed to the Charles Knife Canyon lookout. Road is closed past the plaque commentating the discovery of oil in this location. Gina would be proud.
 
@@ -41,3 +69,5 @@ Things we'd like to go if we come back
 * Turquoise Bay
 * Badjirrajirra Walk
 * Dark Sky Stargazing
+
+![](./images/06_10.jpg)
