@@ -66,7 +66,7 @@ Just before we had to turn around, we floated over an Aboriginal fish trap which
 
 ![](./images/02_06.JPG)
 
-*Grey egret photo bomber*
+*Spot the photo bomber*
 
 We also learned about the etymology for Yardi Creek. One of the original European settlers, an ornithologist named Thomas Carter, apparently had a lot of respect for and got along well with the traditional owners of the land. Yardi, in the local language, means “creek”. So in honour of the traditional owners he named the creek Yardi Creek. Creek Creek. It’s got a nice ring to it.
 
@@ -81,7 +81,7 @@ They have now adopted faux Scottish accents and are practicing their warrior ski
 
 ![](./images/02_09.jpg)
 
-*Freedom!!!*
+*You'll never take our freedom!!!*
 
 ![](./images/02_12.jpg)
 
