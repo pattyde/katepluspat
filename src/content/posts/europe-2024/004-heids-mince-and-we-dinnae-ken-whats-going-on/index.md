@@ -16,7 +16,7 @@ images:
     caption: ""
   - path: "./images/large_IMG_0357.jpeg"
     caption: ""
-  - path: "./images/large_87700080_Unknown.jpeg"
+  - path: "./images/IMG_9000.jpeg"
     caption: ""
 ---
 Most of today was taken up with transit. We got a bus to a station where we were to change to the airport train. At the station we tried the tickets on Pat's phone at the gate - no luck. We tried screenshots of the tickets. Fail. We tried the tickets texted to Kate, tried the phone upside down, all the combinations we could think of. We'd bought a multiday ticket that included transit to Schiphol, but found we couldn't get through the gate because of reasons only clear to the Dutch.  At one point Violet got through the gate with the rest of us stuck on the other side. Everyone in the station started to panic and try to get her back through. We were quite happy to have her 30cm away though a pane of glass while we sorted the ticket situation out, but it was not to be, she was unwillingly rescued and returned to her kin.
@@ -51,4 +51,4 @@ Determined not to let it ruin our night, we dutifully handed back our unlit torc
 
 Admittedly, the wind was quite strong, and as it was showing no sign of buggering of we set off for home to get the kids to sleep.
 
-![](./images/large_87700080_Unknown.jpeg)
+![](./images/IMG_9000.JPG)
