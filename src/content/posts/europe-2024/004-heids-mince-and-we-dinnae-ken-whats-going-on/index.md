@@ -8,7 +8,7 @@ country: "Scotland"
 city: "Edinburgh"
 tags: []
 images:
-  - path: "./images/large_87699552_Unknown.jpeg"
+  - path: "./images/IMG_8966.JPG"
     caption: ""
   - path: "./images/large_87699824_Unknown.jpeg"
     caption: ""
@@ -23,7 +23,7 @@ Most of today was taken up with transit. We got a bus to a station where we were
 
 Eventually we got new tickets, got everyone on the same side of the gate, and went to the airport. The airport was enormous, but well organised with friendly staff. As soon as we were through immigration, Violet asked where the lounge was here - we may be ruining these children.
 
-![Ready for some Hogmanay](./images/large_87699552_Unknown.jpeg)
+![Ready for some Hogmanay](./images/IMG_8966.JPG)
 
 *Ready for some Hogmanay*
 
