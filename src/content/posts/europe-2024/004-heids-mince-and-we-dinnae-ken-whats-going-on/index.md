@@ -25,7 +25,7 @@ Eventually we got new tickets, got everyone on the same side of the gate, and we
 
 ![Ready for some Hogmanay](./images/IMG_8966.JPG)
 
-*Ready for some Hogmanay*
+*Ready for some Hogmania*
 
 In Edinburgh, we got the bus to the hotel. Our apartment is on Princes St overlooking the castle. Certainly not the kind of view we’re used to on our normal accommodation budget, but we’ve splurged to ensure we don’t miss the fireworks. After we unpacked and put a load of clothes in the washer, we headed out to pick up our torch for the first of our Hogmanay activities, the Torchlight Procession. It’s only about a 15 minute walk to The Meadows where there are torch pick up points, live entertainment, and the all important queue to light our torches, and process our way through Edinburgh.
 
