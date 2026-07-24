@@ -46,7 +46,7 @@ We finished the walk an hour before a pre-booked boat tour, which was 15 minutes
 
 *Kids 1, Mungo 0*
 
-As it turned out, heading straight there was the right decision - we started the tour early because everyone was punctual! The tour guide was a marine biologist, the profession every 10 year old in the 90s kid dreamed of after watching Free Willy and Ocean Girl. Apparently this is the kind of job that degree gets you, and she’d just moved here from a stint observing whales in Esperance. Not a bad lifestyle. 
+As it turned out, heading straight there was the right decision - we started the tour early because everyone was punctual! The tour guide was a marine biologist, the profession every 10 year old 90s kid dreamed of after watching Free Willy and Ocean Girl. Apparently this is the kind of job that degree gets you, and she’d just moved here from a stint observing whales in Esperance. Not a bad lifestyle. 
 
 Yardie is the only creek in the area that reliably has water in it, and we're on the best (only) boat tour in town. Pushing away from the jetty, we start by looking at an osprey nest that had been used by the same mating pair for a decade before being mostly destroyed by the cyclone and abandoned. Don’t worry, there were many more nests up river (creek?) which survived. We float past a couple different species of mangrove and then our tour guide drops a challenge for the 4 kids on the boat: count the number of wallabies we see on the day and the winner gets a prize. They might even get to drive the boat! This was, perhaps, the worst possible well-intentioned thing she could have said. Margot’s natural competitive nature kicked in and she could focus on nothing else but spotting wallabies. 
 
